@@ -752,5 +752,48 @@
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName><Name xml:lang="en">Signicat</Name></TSPName>
+                <TSPTradeName><Name xml:lang="en">Signicat AS</Name></TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Beddingen 16</StreetAddress>
+                            <Locality>Trondheim</Locality>
+                            <PostalCode>7042</PostalCode>
+                            <CountryName>NO</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:technicalsupport@signicat.com</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.signicat.com/</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+                        <ServiceName><Name xml:lang="en">Signicat EAA Issuer</Name></ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <X509Certificate>MIICZzCCAe2gAwIBAgIUG1DTFCv8QETYmDn4dtQ+Ulhru4IwCgYIKoZIzj0EAwIwdTEZMBcGA1UEAwwQYXBpLnNpZ25pY2F0LmRldjELMAkGA1UEBhMCTkwxEjAQBgNVBAcMCVJvdHRlcmRhbTERMA8GA1UECgwIU2lnbmljYXQxDDAKBgNVBAsMA1ImRDEWMBQGA1UECAwNU291dGggSG9sbGFuZDAeFw0yNTA0MTEwNjIwNTJaFw0zNTA0MDkwNjIwNTJaMHUxGTAXBgNVBAMMEGFwaS5zaWduaWNhdC5kZXYxCzAJBgNVBAYTAk5MMRIwEAYDVQQHDAlSb3R0ZXJkYW0xETAPBgNVBAoMCFNpZ25pY2F0MQwwCgYDVQQLDANSJkQxFjAUBgNVBAgMDVNvdXRoIEhvbGxhbmQwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAAS6qZB9kqrjUGE6w463NuxFFlOvhEXwTyk2TrXeH47/cXTf40AXhGTruhLc1HitLVK1KrFvUJ/GZJy5VYlxFnjbrIo0xM/28tNKmv8dBCKRPQblJ5M3hkPbDBNXA/UvCoajPjA8MBsGA1UdEQQUMBKCEGFwaS5zaWduaWNhdC5kZXYwHQYDVR0OBBYEFKlEwy7cyVAZzMtWnOlZXsDxutcqMAoGCCqGSM49BAMCA2gAMGUCMQC1WgBh2XETCfS+jkxrqPLCd+xH/bmYHQ9QGS0iEftKGMmE/TLToSsu3GTDAY8Aa8YCMAn2JFpm1cygjvlPaU23qYeK0FfXCOjMtuEXtTwcqqgNGK15WkFvulJP1JGenBReJA==</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+                                <X509SKI>A944C32EDCC95019CCCB569CE9595EC0F1BAD72A</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-05-20T00:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://api.signicat.dev</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
     </TrustServiceProviderList>
 </TrustServiceStatusList>
