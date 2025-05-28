@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#"
-    xmlns:ns2="http://www.w3.org/2000/09/xmldsig#"
-    xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#"
-    xmlns:ns4="http://uri.etsi.org/02231/v2/additionaltypes#"
-    xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#"
-    xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" TSLTag="https://uri.etsi.org/19612/TSLTag/">
+<TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns4="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" TSLTag="https://uri.etsi.org/19612/TSLTag/">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
         <TSLSequenceNumber>1</TSLSequenceNumber>
@@ -43,6 +38,54 @@
         </NextUpdate>
     </SchemeInformation>
     <TrustServiceProviderList>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Tinexta Infocert</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Tinexta Infocert</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Piazzale Flaminio 1B</StreetAddress>
+                            <Locality>Rome</Locality>
+                            <PostalCode>00196</PostalCode>
+                            <CountryName>Italy</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:leone.riello@infocert.it</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.infocert.it</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Infocert EU Qualified Electronic Signature</Name>
+                        </ServiceName>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-05-23T23:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Infocert EAA</Name>
+                        </ServiceName>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-05-23T23:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
         <TrustServiceProvider>
             <TSPInformation>
                 <TSPName>
@@ -754,8 +797,12 @@
         </TrustServiceProvider>
         <TrustServiceProvider>
             <TSPInformation>
-                <TSPName><Name xml:lang="en">Signicat</Name></TSPName>
-                <TSPTradeName><Name xml:lang="en">Signicat AS</Name></TSPTradeName>
+                <TSPName>
+                    <Name xml:lang="en">Signicat</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Signicat AS</Name>
+                </TSPTradeName>
                 <TSPAddress>
                     <PostalAddresses>
                         <PostalAddress xml:lang="en">
@@ -777,7 +824,9 @@
                 <TSPService>
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
-                        <ServiceName><Name xml:lang="en">Signicat EAA Issuer</Name></ServiceName>
+                        <ServiceName>
+                            <Name xml:lang="en">Signicat EAA Issuer</Name>
+                        </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
                                 <X509Certificate>MIICZzCCAe2gAwIBAgIUG1DTFCv8QETYmDn4dtQ+Ulhru4IwCgYIKoZIzj0EAwIwdTEZMBcGA1UEAwwQYXBpLnNpZ25pY2F0LmRldjELMAkGA1UEBhMCTkwxEjAQBgNVBAcMCVJvdHRlcmRhbTERMA8GA1UECgwIU2lnbmljYXQxDDAKBgNVBAsMA1ImRDEWMBQGA1UECAwNU291dGggSG9sbGFuZDAeFw0yNTA0MTEwNjIwNTJaFw0zNTA0MDkwNjIwNTJaMHUxGTAXBgNVBAMMEGFwaS5zaWduaWNhdC5kZXYxCzAJBgNVBAYTAk5MMRIwEAYDVQQHDAlSb3R0ZXJkYW0xETAPBgNVBAoMCFNpZ25pY2F0MQwwCgYDVQQLDANSJkQxFjAUBgNVBAgMDVNvdXRoIEhvbGxhbmQwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAAS6qZB9kqrjUGE6w463NuxFFlOvhEXwTyk2TrXeH47/cXTf40AXhGTruhLc1HitLVK1KrFvUJ/GZJy5VYlxFnjbrIo0xM/28tNKmv8dBCKRPQblJ5M3hkPbDBNXA/UvCoajPjA8MBsGA1UdEQQUMBKCEGFwaS5zaWduaWNhdC5kZXYwHQYDVR0OBBYEFKlEwy7cyVAZzMtWnOlZXsDxutcqMAoGCCqGSM49BAMCA2gAMGUCMQC1WgBh2XETCfS+jkxrqPLCd+xH/bmYHQ9QGS0iEftKGMmE/TLToSsu3GTDAY8Aa8YCMAn2JFpm1cygjvlPaU23qYeK0FfXCOjMtuEXtTwcqqgNGK15WkFvulJP1JGenBReJA==</X509Certificate>
@@ -797,3 +846,4 @@
         </TrustServiceProvider>
     </TrustServiceProviderList>
 </TrustServiceStatusList>
+
