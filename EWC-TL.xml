@@ -739,7 +739,7 @@
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
-                                <X509SKI>353B9AF460F241739090044B776FEC52611762B8</X509SKI>
+                                <X509SKI>NTua9GDyQXOQkARLd2/sUmEXYrg=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
