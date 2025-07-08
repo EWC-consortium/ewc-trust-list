@@ -237,7 +237,7 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/LPWP</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="en">iGrant.io Data Wallet ID-Wallet</Name>
+                            <Name xml:lang="en">iGrant.io Organisation Wallet Suite (Wallet Provider)</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -248,6 +248,24 @@
                         <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
                         <ServiceSupplyPoints>
                             <ServiceSupplyPoint>https://datawallet.igrant.io/</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">iGrant.io Organisation Wallet Suite (EAA provider)</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>https://business.igrant.io/</ServiceSupplyPoint>
                         </ServiceSupplyPoints>
                     </ServiceInformation>
                 </TSPService>
