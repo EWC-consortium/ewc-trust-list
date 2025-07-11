@@ -119,6 +119,17 @@
                         <ServiceName>
                             <Name xml:lang="en">Intesi Group EU Qualified Electronic Signature</Name>
                         </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>C=IT, OID.2.5.4.97=VATIT-02780480964, O=Intesi Group S.p.A., OU=Test Qualified Trust Service Provider, CN=Intesi Group EU Qualified Electronic Seal CA Test</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>yAL2lFZ3I5aSckvtLRsbOPlt3gg=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
                         <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
                         <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
                     </ServiceInformation>
@@ -251,6 +262,27 @@
                         </ServiceSupplyPoints>
                     </ServiceInformation>
                 </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">iGrant.io Organisation Wallet Suite (EAA provider)</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>DNQ=RE1750081195431, CN=iGrant OID4VC, O=iGrant, OID.2.5.4.97=VATSE-13243546, C=SE</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>2t9CkaTwWgC5nBc0VrjVhdHbzqw=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-06-30T22:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
             </TSPServices>
         </TrustServiceProvider>
         <TrustServiceProvider>
@@ -334,6 +366,17 @@
                         <ServiceName>
                             <Name xml:lang="en">CZ PID</Name>
                         </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIICEjCCAbigAwIBAgIUXuNznwE04DifroXk4snWsDVuygowCgYIKoZIzj0EAwIwTjELMAkGA1UEBhMCQ1oxDzANBgNVBAcMBlByYWd1ZTEPMA0GA1UECgwGQ1ouTklDMR0wGwYDVQQDDBRldWRpdy5yZWd0ZXN0Lm5pYy5jejAeFw0yNTA3MTAwODM4NTNaFw0zNTA3MDgwODM4NTNaME4xCzAJBgNVBAYTAkNaMQ8wDQYDVQQHDAZQcmFndWUxDzANBgNVBAoMBkNaLk5JQzEdMBsGA1UEAwwUZXVkaXcucmVndGVzdC5uaWMuY3owWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAS2BtMWaZhzD3k1Ny2l3kI0mfGS/UCGEYIzDIkZwNANLley53ECNMKo2k3+4rLe9woQERruxLZhPMXc1WRZnSgYo3QwcjAdBgNVHQ4EFgQU7UvJDnAnht771esY6wwDW9prAPIwHwYDVR0jBBgwFoAU7UvJDnAnht771esY6wwDW9prAPIwDwYDVR0TAQH/BAUwAwEB/zAfBgNVHREEGDAWghRldWRpdy5yZWd0ZXN0Lm5pYy5jejAKBggqhkjOPQQDAgNIADBFAiEApMKwWPtJp0mDthChHB9wtOaw+DJIqaCnm414uCSV1HoCIFf4i3bQdwvJBBMX8xa2YU7Q9/Cmxjko/XbX6aTwz7se</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=eudiw.regtest.nic.cz, O=CZ.NIC, L=Prague, C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>7UvJDnAnht771esY6wwDW9prAPI=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
                         <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
                         <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
                     </ServiceInformation>
