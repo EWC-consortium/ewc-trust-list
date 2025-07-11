@@ -336,6 +336,14 @@
                         </ServiceName>
                         <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
                         <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <X509Certificate>MIICEjCCAbigAwIBAgIUXuNznwE04DifroXk4snWsDVuygowCgYIKoZIzj0EAwIwTjELMAkGA1UEBhMCQ1oxDzANBgNVBAcMBlByYWd1ZTEPMA0GA1UECgwGQ1ouTklDMR0wGwYDVQQDDBRldWRpdy5yZWd0ZXN0Lm5pYy5jejAeFw0yNTA3MTAwODM4NTNaFw0zNTA3MDgwODM4NTNaME4xCzAJBgNVBAYTAkNaMQ8wDQYDVQQHDAZQcmFndWUxDzANBgNVBAoMBkNaLk5JQzEdMBsGA1UEAwwUZXVkaXcucmVndGVzdC5uaWMuY3owWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAS2BtMWaZhzD3k1Ny2l3kI0mfGS/UCGEYIzDIkZwNANLley53ECNMKo2k3+4rLe9woQERruxLZhPMXc1WRZnSgYo3QwcjAdBgNVHQ4EFgQU7UvJDnAnht771esY6wwDW9prAPIwHwYDVR0jBBgwFoAU7UvJDnAnht771esY6wwDW9prAPIwDwYDVR0TAQH/BAUwAwEB/zAfBgNVHREEGDAWghRldWRpdy5yZWd0ZXN0Lm5pYy5jejAKBggqhkjOPQQDAgNIADBFAiEApMKwWPtJp0mDthChHB9wtOaw+DJIqaCnm414uCSV1HoCIFf4i3bQdwvJBBMX8xa2YU7Q9/Cmxjko/XbX6aTwz7se</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+                                <X509SKI>ed4bc90e702786defbd5eb18eb0c035bda6b00f2</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
                     </ServiceInformation>
                 </TSPService>
                 <TSPService>
