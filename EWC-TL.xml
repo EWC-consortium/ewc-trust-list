@@ -1037,5 +1037,87 @@
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
+        <TrustServiceProvider>
+	<TSPInformation>
+		<TSPName>
+			<Name xml:lang="it">InfoCamere</Name>
+		</TSPName>
+		<TSPTradeName>
+			<Name xml:lang="it">InfoCamere</Name>
+		</TSPTradeName>
+		<TSPAddress>
+			<PostalAddresses>
+				<PostalAddress xml:lang="it">
+					<StreetAddress>Via Morgagni, 13</StreetAddress>
+					<Locality>Roma</Locality>
+					<PostalCode>00161</PostalCode>
+					<CountryName>IT</CountryName>
+				</PostalAddress>
+			</PostalAddresses>
+			<ElectronicAddress>
+				<URI xml:lang="it">mailto:alessandro.bazzolo@infocamere.it</URI>
+			</ElectronicAddress>
+		</TSPAddress>
+		<TSPInformationURI>
+			<URI xml:lang="it">https://id.infocamere.it/</URI>
+		</TSPInformationURI>
+	</TSPInformation>
+	<TSPServices>
+		<TSPService>
+			<ServiceInformation>
+				<ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/LPWP</ServiceTypeIdentifier>
+				<ServiceName>
+					<Name xml:lang="it">Wallet Infocamere</Name>
+				</ServiceName>
+				<ServiceDigitalIdentity>
+					<DigitalId>
+						<X509Certificate>MIICPTCCAeKgAwIBAgIUfI29AuQQcpiSGd6pZf2JBIHM6bYwCgYIKoZIzj0EAwIwKzEcMBoGA1UEAwwTSW5mb0NhbWVyZSBWZXJpZmllcjELMAkGA1UEBhMCSVQwHhcNMjUwNzIyMTM0MDQ4WhcNMjgwNzIxMTM0MDQ4WjArMRwwGgYDVQQDDBNJbmZvQ2FtZXJlIFZlcmlmaWVyMQswCQYDVQQGEwJJVDBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABCWTm1ceewoWRlhFz6vpujbcbz//pp+Cl8Pq1hNuRZq/nktZTlgt4TntX2t2zFTdn3wIblTSQpNAbmIzYWFKs1ajgeMwgeAwEgYDVR0TAQH/BAgwBgEB/wIBADAOBgNVHQ8BAf8EBAMCAKQwHQYDVR0RBBYwFIISd2FsbC5pbmZvY2FtZXJlLml0MBIGA1UdJQQLMAkGByiBjF0FAQYwRwYDVR0fBEAwPjA8oDqgOIY2aHR0cHM6Ly9waWQtdmVyaWZpZXIudXRvY29ubmVjdC5jb20vdHJ1c3RzdHJ1Y3R1cmUvY3JsMB0GA1UdDgQWBBRJzALLijxrk4pVvHGC3MVBlAoqjzAfBgNVHSMEGDAWgBRJzALLijxrk4pVvHGC3MVBlAoqjzAKBggqhkjOPQQDAgNJADBGAiEA5ccBcRhjOIAFbbvaKmiBbI4IsNTc37dFziK2dlUni1kCIQDH+3aSFwtznY068VYolV16yi1QiVAoobyN3EvjkIKxUw==</X509Certificate>
+					</DigitalId>
+				</ServiceDigitalIdentity>
+				<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+				<StatusStartingTime>2025-07-21T00:00:00Z</StatusStartingTime>
+				<SchemeServiceDefinitionURI>
+					<URI xml:lang="it">http://wall.infocamere.it/</URI>
+				</SchemeServiceDefinitionURI>
+			</ServiceInformation>
+		</TSPService>
+		<TSPService>
+			<ServiceInformation>
+				<ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/PID</ServiceTypeIdentifier>
+				<ServiceName>
+					<Name xml:lang="it">Wallet Infocamere</Name>
+				</ServiceName>
+				<ServiceDigitalIdentity>
+					<DigitalId>
+						<X509Certificate>MIICPTCCAeKgAwIBAgIUfI29AuQQcpiSGd6pZf2JBIHM6bYwCgYIKoZIzj0EAwIwKzEcMBoGA1UEAwwTSW5mb0NhbWVyZSBWZXJpZmllcjELMAkGA1UEBhMCSVQwHhcNMjUwNzIyMTM0MDQ4WhcNMjgwNzIxMTM0MDQ4WjArMRwwGgYDVQQDDBNJbmZvQ2FtZXJlIFZlcmlmaWVyMQswCQYDVQQGEwJJVDBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABCWTm1ceewoWRlhFz6vpujbcbz//pp+Cl8Pq1hNuRZq/nktZTlgt4TntX2t2zFTdn3wIblTSQpNAbmIzYWFKs1ajgeMwgeAwEgYDVR0TAQH/BAgwBgEB/wIBADAOBgNVHQ8BAf8EBAMCAKQwHQYDVR0RBBYwFIISd2FsbC5pbmZvY2FtZXJlLml0MBIGA1UdJQQLMAkGByiBjF0FAQYwRwYDVR0fBEAwPjA8oDqgOIY2aHR0cHM6Ly9waWQtdmVyaWZpZXIudXRvY29ubmVjdC5jb20vdHJ1c3RzdHJ1Y3R1cmUvY3JsMB0GA1UdDgQWBBRJzALLijxrk4pVvHGC3MVBlAoqjzAfBgNVHSMEGDAWgBRJzALLijxrk4pVvHGC3MVBlAoqjzAKBggqhkjOPQQDAgNJADBGAiEA5ccBcRhjOIAFbbvaKmiBbI4IsNTc37dFziK2dlUni1kCIQDH+3aSFwtznY068VYolV16yi1QiVAoobyN3EvjkIKxUw==</X509Certificate>
+					</DigitalId>
+				</ServiceDigitalIdentity>
+				<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+				<StatusStartingTime>2025-07-21T00:00:00Z</StatusStartingTime>
+				<SchemeServiceDefinitionURI>
+					<URI xml:lang="it">http://wall.infocamere.it/</URI>
+				</SchemeServiceDefinitionURI>
+			</ServiceInformation>
+		</TSPService>
+		<TSPService>
+			<ServiceInformation>
+				<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+				<ServiceName>
+					<Name xml:lang="it">Wallet Infocamere</Name>
+				</ServiceName>
+				<ServiceDigitalIdentity>
+					<DigitalId>
+						<X509Certificate>MIICNzCCAd6gAwIBAgIUXUT4tZSJClMV9DgGIEiliExfMw0wCgYIKoZIzj0EAwIwKTEaMBgGA1UEAwwRSW5mb0NhbWVyZSBJc3N1ZXIxCzAJBgNVBAYTAklUMB4XDTI1MDcyMjEzNDAzOVoXDTI4MDcyMTEzNDAzOVowKTEaMBgGA1UEAwwRSW5mb0NhbWVyZSBJc3N1ZXIxCzAJBgNVBAYTAklUMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEpWiiVkeoFwm6n73xxrSqbDB0qPF2e0lEefDLKi6rhIkTjuDOVA2WN5agsbi8FCnK85dJoda1eX4+IQ8zfX5Kz6OB4zCB4DASBgNVHRMBAf8ECDAGAQH/AgEAMA4GA1UdDwEB/wQEAwIApDAdBgNVHREEFjAUghJ3YWxsLmluZm9jYW1lcmUuaXQwEgYDVR0lBAswCQYHKIGMXQUBBjBHBgNVHR8EQDA+MDygOqA4hjZodHRwczovL3BpZC12ZXJpZmllci51dG9jb25uZWN0LmNvbS90cnVzdHN0cnVjdHVyZS9jcmwwHQYDVR0OBBYEFBZcbATv16zpXxWF3OV6waLPNMuZMB8GA1UdIwQYMBaAFBZcbATv16zpXxWF3OV6waLPNMuZMAoGCCqGSM49BAMCA0cAMEQCIDz1QPXMHZiK17+aE0sdWr4EKYEif9gtzrp/o7RJM2HuAiAELh65Ae2rySvw0SsSgWpc/ztccEmuSoNqu/mcVOexdA==</X509Certificate>
+					</DigitalId>
+				</ServiceDigitalIdentity>
+				<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+				<StatusStartingTime>2025-07-21T00:00:00Z</StatusStartingTime>
+				<ServiceSupplyPoints>
+					<ServiceSupplyPoint>http://wall.infocamere.it/</ServiceSupplyPoint>
+				</ServiceSupplyPoints>
+			</ServiceInformation>
+		</TSPService>
+	</TSPServices>
+</TrustServiceProvider>
     </TrustServiceProviderList>
 </TrustServiceStatusList>
