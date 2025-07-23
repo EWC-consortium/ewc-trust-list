@@ -1,1090 +1,1123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns4="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" TSLTag="https://uri.etsi.org/19612/TSLTag/">
-    <SchemeInformation>
-        <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>1</TSLSequenceNumber>
-        <TSLType>https://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric/</TSLType>
-        <SchemeOperatorName>
-            <Name xml:lang="en">EWC Consortium</Name>
-        </SchemeOperatorName>
-        <SchemeOperatorAddress>
-            <PostalAddresses>
-                <PostalAddress xml:lang="en">
-                    <StreetAddress>Stuvarvägen 21</StreetAddress>
-                    <Locality>Sundsvall</Locality>
-                    <PostalCode>85181</PostalCode>
-                    <CountryName>SE</CountryName>
-                </PostalAddress>
-            </PostalAddresses>
-            <ElectronicAddress>
-                <URI xml:lang="en">mailto:info@eudiwalletconsortium.org</URI>
-            </ElectronicAddress>
-        </SchemeOperatorAddress>
-        <SchemeName>
-            <Name xml:lang="en">TT:EN_EWC_TrustList</Name>
-        </SchemeName>
-        <SchemeInformationURI/>
-        <StatusDeterminationApproach>https://uri.etsi.org/TrstSvc/TrustedList/StatusDetn/EUappropriate/</StatusDeterminationApproach>
-        <SchemeTypeCommunityRules>
-            <URI xml:lang="en">https://uri.etsi.org/TrstSvc/TrustedList/schemerules/EU/</URI>
-        </SchemeTypeCommunityRules>
-        <SchemeTerritory>TT</SchemeTerritory>
-        <PolicyOrLegalNotice/>
-        <HistoricalInformationPeriod>0</HistoricalInformationPeriod>
-        <PointersToOtherTSL/>
-        <ListIssueDateTime>2025-02-13T01:00:00Z</ListIssueDateTime>
-        <NextUpdate>
-            <dateTime>2025-08-13T00:00:00Z</dateTime>
-        </NextUpdate>
-    </SchemeInformation>
-    <TrustServiceProviderList>
-        <TrustServiceProvider>
-            <TSPInformation>
-                <TSPName>
-                    <Name xml:lang="en">Tinexta Infocert</Name>
-                </TSPName>
-                <TSPTradeName>
-                    <Name xml:lang="en">Tinexta Infocert</Name>
-                </TSPTradeName>
-                <TSPAddress>
-                    <PostalAddresses>
-                        <PostalAddress xml:lang="en">
-                            <StreetAddress>Piazzale Flaminio 1B</StreetAddress>
-                            <Locality>Rome</Locality>
-                            <PostalCode>00196</PostalCode>
-                            <CountryName>Italy</CountryName>
-                        </PostalAddress>
-                    </PostalAddresses>
-                    <ElectronicAddress>
-                        <URI xml:lang="en">mailto:leone.riello@infocert.it</URI>
-                    </ElectronicAddress>
-                </TSPAddress>
-                <TSPInformationURI>
-                    <URI xml:lang="en">https://www.infocert.it</URI>
-                </TSPInformationURI>
-            </TSPInformation>
-            <TSPServices>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">Infocert EU Qualified Electronic Signature</Name>
-                        </ServiceName>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-05-23T23:00:00Z</StatusStartingTime>
-                    </ServiceInformation>
-                </TSPService>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">Infocert EAA</Name>
-                        </ServiceName>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-05-23T23:00:00Z</StatusStartingTime>
-                    </ServiceInformation>
-                </TSPService>
-            </TSPServices>
-        </TrustServiceProvider>
-        <TrustServiceProvider>
-            <TSPInformation>
-                <TSPName>
-                    <Name xml:lang="en">INTESI GROUP</Name>
-                </TSPName>
-                <TSPTradeName>
-                    <Name xml:lang="en">INTESI GROUP S.p.A.</Name>
-                </TSPTradeName>
-                <TSPAddress>
-                    <PostalAddresses>
-                        <PostalAddress xml:lang="en">
-                            <StreetAddress>Via Torino 48</StreetAddress>
-                            <Locality>Milan</Locality>
-                            <StateOrProvince>Milan</StateOrProvince>
-                            <PostalCode>20123</PostalCode>
-                            <CountryName>IT</CountryName>
-                        </PostalAddress>
-                    </PostalAddresses>
-                    <ElectronicAddress>
-                        <URI xml:lang="en">mailto:info@intesigroup.com</URI>
-                    </ElectronicAddress>
-                </TSPAddress>
-                <TSPInformationURI>
-                    <URI xml:lang="en">https://www.intesigroup.com/en/</URI>
-                </TSPInformationURI>
-            </TSPInformation>
-            <TSPServices>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">Intesi Group EU Qualified Electronic Signature</Name>
-                        </ServiceName>
-                        <ServiceDigitalIdentity>
-                            <DigitalId>
-<X509Certificate>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</X509Certificate>
-                            </DigitalId>
-                            <DigitalId>
-<X509SubjectName>C=IT, OID.2.5.4.97=VATIT-02780480964, O=Intesi Group S.p.A., OU=Test Qualified Trust Service Provider, CN=Intesi Group EU Qualified Electronic Seal CA Test</X509SubjectName>
-                            </DigitalId>
-                            <DigitalId>
-<X509SKI>yAL2lFZ3I5aSckvtLRsbOPlt3gg=</X509SKI>
-                            </DigitalId>
-                        </ServiceDigitalIdentity>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
-                    </ServiceInformation>
-                </TSPService>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">IG EAA</Name>
-                        </ServiceName>
-                        <ServiceDigitalIdentity>
-                            <DigitalId>
-<X509Certificate>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</X509Certificate>
-                            </DigitalId>
-                        </ServiceDigitalIdentity>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
-                    </ServiceInformation>
-                </TSPService>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">Intesi Group PhotoID EAA</Name>
-                        </ServiceName>
-                        <ServiceDigitalIdentity>
-                            <DigitalId>
-<X509Certificate>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</X509Certificate>
-                            </DigitalId>
-                            <DigitalId>
-<X509SubjectName>DNQ=RE17362863822, CN=Intesi Group S.p.A., O=Intesi Group S.p.A., OID.2.5.4.97=VATIT-02780480964, C=IT</X509SubjectName>
-                            </DigitalId>
-                            <DigitalId>
-<X509SKI>o5sXI36N2PUiknOrs7ZAVcht8os=</X509SKI>
-                            </DigitalId>
-                        </ServiceDigitalIdentity>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-06-30T22:00:00Z</StatusStartingTime>
-                    </ServiceInformation>
-                </TSPService>
-            </TSPServices>
-        </TrustServiceProvider>
-        <TrustServiceProvider>
-            <TSPInformation>
-                <TSPName>
-                    <Name xml:lang="en">Banca Transilvania</Name>
-                </TSPName>
-                <TSPTradeName>
-                    <Name xml:lang="en">Banca Transilvania S.A.</Name>
-                </TSPTradeName>
-                <TSPAddress>
-                    <PostalAddresses>
-                        <PostalAddress xml:lang="en">
-                            <StreetAddress>Calea Dorobanților 30-36</StreetAddress>
-                            <Locality>Cluj-Napoca</Locality>
-                            <PostalCode>400121</PostalCode>
-                            <CountryName>RO</CountryName>
-                        </PostalAddress>
-                    </PostalAddresses>
-                    <ElectronicAddress>
-                        <URI xml:lang="en">mailto:contact@btrl.ro</URI>
-                    </ElectronicAddress>
-                </TSPAddress>
-                <TSPInformationURI>
-                    <URI xml:lang="en">https://www.bancatransilvania.ro</URI>
-                </TSPInformationURI>
-            </TSPInformation>
-            <TSPServices>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">Payment Authenticator Issuer</Name>
-                        </ServiceName>
-                        <ServiceDigitalIdentity>
-                            <DigitalId>
-<X509Certificate>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</X509Certificate>
-                            </DigitalId>
-                        </ServiceDigitalIdentity>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
-                        <ServiceSupplyPoints>
-                            <ServiceSupplyPoint>https://www.bancatransilvania.ro</ServiceSupplyPoint>
-                        </ServiceSupplyPoints>
-                    </ServiceInformation>
-                </TSPService>
-            </TSPServices>
-        </TrustServiceProvider>
-        <TrustServiceProvider>
-            <TSPInformation>
-                <TSPName>
-                    <Name xml:lang="en">iGrant.io, Sweden</Name>
-                </TSPName>
-                <TSPTradeName>
-                    <Name xml:lang="en">LCubed AB</Name>
-                </TSPTradeName>
-                <TSPAddress>
-                    <PostalAddresses>
-                        <PostalAddress xml:lang="en">
-                            <StreetAddress>Bössvägen 28</StreetAddress>
-                            <Locality>Sollentuna, Stockholm</Locality>
-                            <PostalCode>19255</PostalCode>
-                            <CountryName>SE</CountryName>
-                        </PostalAddress>
-                    </PostalAddresses>
-                    <ElectronicAddress>
-                        <URI xml:lang="en">mailto:support@igrant.io</URI>
-                    </ElectronicAddress>
-                </TSPAddress>
-                <TSPInformationURI>
-                    <URI xml:lang="en">https://igrant.io</URI>
-                </TSPInformationURI>
-            </TSPInformation>
-            <TSPServices>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/LPWP</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">iGrant.io Data Wallet ID-Wallet</Name>
-                        </ServiceName>
-                        <ServiceDigitalIdentity>
-                            <DigitalId>
-<X509Certificate>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</X509Certificate>
-                            </DigitalId>
-                        </ServiceDigitalIdentity>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
-                        <ServiceSupplyPoints>
-                            <ServiceSupplyPoint>https://datawallet.igrant.io/</ServiceSupplyPoint>
-                        </ServiceSupplyPoints>
-                    </ServiceInformation>
-                </TSPService>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">iGrant.io Organisation Wallet Suite (EAA provider)</Name>
-                        </ServiceName>
-                        <ServiceDigitalIdentity>
-                            <DigitalId>
-<X509Certificate>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</X509Certificate>
-                            </DigitalId>
-                            <DigitalId>
-<X509SubjectName>DNQ=RE1750081195431, CN=iGrant OID4VC, O=iGrant, OID.2.5.4.97=VATSE-13243546, C=SE</X509SubjectName>
-                            </DigitalId>
-                            <DigitalId>
-<X509SKI>2t9CkaTwWgC5nBc0VrjVhdHbzqw=</X509SKI>
-                            </DigitalId>
-                        </ServiceDigitalIdentity>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-06-30T22:00:00Z</StatusStartingTime>
-                    </ServiceInformation>
-                </TSPService>
-            </TSPServices>
-        </TrustServiceProvider>
-        <TrustServiceProvider>
-            <TSPInformation>
-                <TSPName>
-                    <Name xml:lang="en">Lissi GmbH</Name>
-                </TSPName>
-                <TSPTradeName>
-                    <Name xml:lang="en">Lissi GmbH</Name>
-                </TSPTradeName>
-                <TSPAddress>
-                    <PostalAddresses>
-                        <PostalAddress xml:lang="en">
-                            <StreetAddress>Eschersheimer Landstrasse 6</StreetAddress>
-                            <Locality>Frankfurt</Locality>
-                            <PostalCode>60318</PostalCode>
-                            <CountryName>DE</CountryName>
-                        </PostalAddress>
-                    </PostalAddresses>
-                    <ElectronicAddress>
-                        <URI xml:lang="en">mailto:wallet@lissi.id</URI>
-                    </ElectronicAddress>
-                </TSPAddress>
-                <TSPInformationURI>
-                    <URI xml:lang="en">https://lissi.id/</URI>
-                </TSPInformationURI>
-            </TSPInformation>
-            <TSPServices>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/NPWP</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">Lissi ID-Wallet</Name>
-                        </ServiceName>
-                        <ServiceDigitalIdentity>
-                            <DigitalId>
-<X509SubjectName>Public Key</X509SubjectName>
-                            </DigitalId>
-                            <DigitalId>
-<X509SKI>MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEANgoy24GN+JrsXCOMw1pXytmjCWcKjneRUOXuYdrbMPkL0pntym7jbQPqxYrBCh+V+8R5uwrNGJ2q4sui6iRyw==</X509SKI>
-                            </DigitalId>
-                        </ServiceDigitalIdentity>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
-                        <ServiceSupplyPoints>
-                            <ServiceSupplyPoint>https://wallet.lissi.io/</ServiceSupplyPoint>
-                        </ServiceSupplyPoints>
-                    </ServiceInformation>
-                </TSPService>
-            </TSPServices>
-        </TrustServiceProvider>
-        <TrustServiceProvider>
-            <TSPInformation>
-                <TSPName>
-                    <Name xml:lang="en">CZ.NIC</Name>
-                </TSPName>
-                <TSPTradeName>
-                    <Name xml:lang="en">CZ.NIC, z. s. p. o.</Name>
-                </TSPTradeName>
-                <TSPAddress>
-                    <PostalAddresses>
-                        <PostalAddress xml:lang="en">
-                            <StreetAddress>Milesovska 5</StreetAddress>
-                            <Locality>Prague</Locality>
-                            <PostalCode>13000</PostalCode>
-                            <CountryName>CZ</CountryName>
-                        </PostalAddress>
-                    </PostalAddresses>
-                    <ElectronicAddress>
-                        <URI xml:lang="en">mailto:jaromir.talir@nic.cz</URI>
-                    </ElectronicAddress>
-                </TSPAddress>
-                <TSPInformationURI>
-                    <URI xml:lang="en">https://www.nic.cz/</URI>
-                </TSPInformationURI>
-            </TSPInformation>
-            <TSPServices>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/PID</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">CZ PID</Name>
-                        </ServiceName>
-                        <ServiceDigitalIdentity>
-                            <DigitalId>
-<X509Certificate>MIICEjCCAbigAwIBAgIUXuNznwE04DifroXk4snWsDVuygowCgYIKoZIzj0EAwIwTjELMAkGA1UEBhMCQ1oxDzANBgNVBAcMBlByYWd1ZTEPMA0GA1UECgwGQ1ouTklDMR0wGwYDVQQDDBRldWRpdy5yZWd0ZXN0Lm5pYy5jejAeFw0yNTA3MTAwODM4NTNaFw0zNTA3MDgwODM4NTNaME4xCzAJBgNVBAYTAkNaMQ8wDQYDVQQHDAZQcmFndWUxDzANBgNVBAoMBkNaLk5JQzEdMBsGA1UEAwwUZXVkaXcucmVndGVzdC5uaWMuY3owWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAS2BtMWaZhzD3k1Ny2l3kI0mfGS/UCGEYIzDIkZwNANLley53ECNMKo2k3+4rLe9woQERruxLZhPMXc1WRZnSgYo3QwcjAdBgNVHQ4EFgQU7UvJDnAnht771esY6wwDW9prAPIwHwYDVR0jBBgwFoAU7UvJDnAnht771esY6wwDW9prAPIwDwYDVR0TAQH/BAUwAwEB/zAfBgNVHREEGDAWghRldWRpdy5yZWd0ZXN0Lm5pYy5jejAKBggqhkjOPQQDAgNIADBFAiEApMKwWPtJp0mDthChHB9wtOaw+DJIqaCnm414uCSV1HoCIFf4i3bQdwvJBBMX8xa2YU7Q9/Cmxjko/XbX6aTwz7se</X509Certificate>
-                            </DigitalId>
-                            <DigitalId>
-<X509SubjectName>CN=eudiw.regtest.nic.cz, O=CZ.NIC, L=Prague, C=CZ</X509SubjectName>
-                            </DigitalId>
-                            <DigitalId>
-<X509SKI>7UvJDnAnht771esY6wwDW9prAPI=</X509SKI>
-                            </DigitalId>
-                        </ServiceDigitalIdentity>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
-                    </ServiceInformation>
-                </TSPService>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">CZ.NIC EAA</Name>
-                        </ServiceName>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
-                    </ServiceInformation>
-                </TSPService>
-            </TSPServices>
-        </TrustServiceProvider>
-        <TrustServiceProvider>
-            <TSPInformation>
-                <TSPName>
-                    <Name xml:lang="en">E-Group</Name>
-                </TSPName>
-                <TSPTradeName>
-                    <Name xml:lang="en">E-Group ICT Software</Name>
-                </TSPTradeName>
-                <TSPAddress>
-                    <PostalAddresses>
-                        <PostalAddress xml:lang="en">
-                            <StreetAddress>Also Torokvesz ut 2</StreetAddress>
-                            <Locality>Budapest</Locality>
-                            <PostalCode>1022</PostalCode>
-                            <CountryName>HU</CountryName>
-                        </PostalAddress>
-                    </PostalAddresses>
-                    <ElectronicAddress>
-                        <URI xml:lang="en">mailto:info@egroup.hu</URI>
-                    </ElectronicAddress>
-                </TSPAddress>
-                <TSPInformationURI>
-                    <URI xml:lang="en">https://www.egroup.hu/</URI>
-                </TSPInformationURI>
-            </TSPInformation>
-            <TSPServices>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/NPWP</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">E-Group MyD Wallet</Name>
-                        </ServiceName>
-                        <ServiceDigitalIdentity>
-                            <DigitalId>
-<X509SubjectName>Public Key</X509SubjectName>
-                            </DigitalId>
-                            <DigitalId>
-<X509SKI>MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEZt8+VkHRtplsqbizmVFRp4JozksEue/EFskUcSNHrjDe6AbdFQvfdSTFjs/hkPqSoVPF5p0cxUjgH39+Xis5Ng==</X509SKI>
-                            </DigitalId>
-                        </ServiceDigitalIdentity>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-03-04T22:00:00Z</StatusStartingTime>
-                        <SchemeServiceDefinitionURI>
-                            <URI xml:lang="en">https://www.egroup.hu/</URI>
-                        </SchemeServiceDefinitionURI>
-                        <ServiceSupplyPoints>
-                            <ServiceSupplyPoint>https://www.egroup.hu/</ServiceSupplyPoint>
-                        </ServiceSupplyPoints>
-                    </ServiceInformation>
-                </TSPService>
-            </TSPServices>
-        </TrustServiceProvider>
-        <TrustServiceProvider>
-            <TSPInformation>
-                <TSPName>
-                    <Name xml:lang="en">DIGG</Name>
-                </TSPName>
-                <TSPTradeName>
-                    <Name xml:lang="en">Agency for digital government</Name>
-                </TSPTradeName>
-                <TSPAddress>
-                    <PostalAddresses>
-                        <PostalAddress xml:lang="en">
-                            <StreetAddress>Box 14</StreetAddress>
-                            <Locality>Sundsvall</Locality>
-                            <PostalCode>851 02</PostalCode>
-                            <CountryName>SE</CountryName>
-                        </PostalAddress>
-                    </PostalAddresses>
-                    <ElectronicAddress>
-                        <URI xml:lang="en">mailto:info@digg.se</URI>
-                    </ElectronicAddress>
-                </TSPAddress>
-                <TSPInformationURI>
-                    <URI xml:lang="en">https://www.digg.se</URI>
-                </TSPInformationURI>
-            </TSPInformation>
-            <TSPServices>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/PID</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">Sweden PID</Name>
-                        </ServiceName>
-                        <ServiceDigitalIdentity>
-                            <DigitalId>
-<X509SubjectName>Public Key</X509SubjectName>
-                            </DigitalId>
-                            <DigitalId>
-<X509SKI>MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESAFdIq8VSlvs32ZNURQgSOTqhntNw1c/Kfgx3jMgOJKgvVWLTzvDmLPI/Kf6oXKlPNNFrYAP2CxpYIhqkYKE2g==</X509SKI>
-                            </DigitalId>
-                        </ServiceDigitalIdentity>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-03-04T22:00:00Z</StatusStartingTime>
-                        <SchemeServiceDefinitionURI>
-                            <URI xml:lang="en">https://wallet.sandbox.digg.se</URI>
-                        </SchemeServiceDefinitionURI>
-                        <ServiceSupplyPoints>
-                            <ServiceSupplyPoint>https://wallet.sandbox.digg.se</ServiceSupplyPoint>
-                        </ServiceSupplyPoints>
-                        <TSPServiceDefinitionURI>
-                            <URI xml:lang="en">https://wallet.sandbox.digg.se</URI>
-                        </TSPServiceDefinitionURI>
-                    </ServiceInformation>
-                </TSPService>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/NPWP</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">DIGG Wallet</Name>
-                        </ServiceName>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-03-04T22:00:00Z</StatusStartingTime>
-                        <SchemeServiceDefinitionURI>
-                            <URI xml:lang="en">eudiwalletconsortium.org</URI>
-                        </SchemeServiceDefinitionURI>
-                        <ServiceSupplyPoints>
-                            <ServiceSupplyPoint>https://wallet.sandbox.digg.se</ServiceSupplyPoint>
-                        </ServiceSupplyPoints>
-                        <TSPServiceDefinitionURI>
-                            <URI xml:lang="en">https://wallet.sandbox.digg.se</URI>
-                        </TSPServiceDefinitionURI>
-                    </ServiceInformation>
-                </TSPService>
-            </TSPServices>
-        </TrustServiceProvider>
-        <TrustServiceProvider>
-            <TSPInformation>
-                <TSPName>
-                    <Name xml:lang="en">Uaegean</Name>
-                </TSPName>
-                <TSPTradeName>
-                    <Name xml:lang="en">University of the Aegean</Name>
-                </TSPTradeName>
-                <TSPAddress>
-                    <PostalAddresses>
-                        <PostalAddress xml:lang="en">
-                            <StreetAddress>University Hill</StreetAddress>
-                            <Locality>Μytilene</Locality>
-                            <PostalCode>81100</PostalCode>
-                            <CountryName>EL</CountryName>
-                        </PostalAddress>
-                    </PostalAddresses>
-                    <ElectronicAddress>
-                        <URI xml:lang="en">mailto:triantafyllou.ni@aegean.gr</URI>
-                    </ElectronicAddress>
-                </TSPAddress>
-                <TSPInformationURI>
-                    <URI xml:lang="en">https://www.aegean.edu/</URI>
-                </TSPInformationURI>
-            </TSPInformation>
-            <TSPServices>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">Uaegean EAA</Name>
-                        </ServiceName>
-                        <ServiceDigitalIdentity>
-                            <DigitalId>
-<X509SubjectName>Public Key</X509SubjectName>
-                            </DigitalId>
-                            <DigitalId>
-<X509SKI>MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEdMLtMHM+bYdiJRHJmfA7ypihS8JDAmci4q3FOeLy6mDxleHd06wugkVPVjoX74eBHq4GOw6J+dMiKJWdB+Chaw==</X509SKI>
-                            </DigitalId>
-                        </ServiceDigitalIdentity>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-03-04T22:00:00Z</StatusStartingTime>
-                        <SchemeServiceDefinitionURI>
-                            <URI xml:lang="en">https://www.aegean.edu/</URI>
-                        </SchemeServiceDefinitionURI>
-                        <ServiceSupplyPoints>
-                            <ServiceSupplyPoint>https://www.aegean.edu/</ServiceSupplyPoint>
-                        </ServiceSupplyPoints>
-                        <TSPServiceDefinitionURI>
-                            <URI xml:lang="en">https://www.aegean.edu/</URI>
-                        </TSPServiceDefinitionURI>
-                    </ServiceInformation>
-                    <ServiceHistory>
-                        <ServiceHistoryInstance>
-                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
-                            <ServiceName>
-<Name xml:lang="en">Uaegean EAA</Name>
-                            </ServiceName>
-                            <ServiceDigitalIdentity>
-<DigitalId>
-    <X509SubjectName>Old Public Key test</X509SubjectName>
-</DigitalId>
-<DigitalId>
-    <X509SKI>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu9To4c1xJlZLrKZ0IUlpksH4Yt/PRogLxes1XxqZfnKHHkcFH1RasxZEB4lAsrwtAmWRHZWd4/aUQkpHAHwau3lEu2rSlKtE9q2Fi5xw1261Dp7EmV3bmarM5uqluEU+GApQFNGgqPGVpQEGSlRpbdY9Fys5tNGI9lIKqNm17if5uGmmXSBY4Qc9JOWBNPuOIM7HxzjaPWpcP4s9MwYR2bk3Jpg0MzcsKW1TptunRZpWeiIwXLd5NATN2Hq1ZQdSxCVaXzPqJzuG0RaOqSMr0p0hs6DtXqceMOfenKVUHwemuVrBFEmKbyplRrcuKdvWqcqiKJqGfgfCoBACJcws4QIDAQAB</X509SKI>
-</DigitalId>
-                            </ServiceDigitalIdentity>
-                            <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                            <StatusStartingTime>2024-12-31T22:00:00Z</StatusStartingTime>
-                        </ServiceHistoryInstance>
-                    </ServiceHistory>
-                </TSPService>
-            </TSPServices>
-        </TrustServiceProvider>
-        <TrustServiceProvider>
-            <TSPInformation>
-                <TSPName>
-                    <Name>GRNET</Name>
-                </TSPName>
-                <TSPTradeName>
-                    <Name xml:lang="en">GRNET SA</Name>
-                </TSPTradeName>
-                <TSPAddress>
-                    <PostalAddresses>
-                        <PostalAddress xml:lang="en">
-                            <StreetAddress>Kifisias Av. 7</StreetAddress>
-                            <Locality>Athens</Locality>
-                            <PostalCode>11523</PostalCode>
-                            <CountryName>EL</CountryName>
-                        </PostalAddress>
-                    </PostalAddresses>
-                    <ElectronicAddress>
-                        <URI xml:lang="en">mailto:info@grnet.gr</URI>
-                    </ElectronicAddress>
-                </TSPAddress>
-                <TSPInformationURI>
-                    <URI xml:lang="en">https://grnet.gr</URI>
-                </TSPInformationURI>
-            </TSPInformation>
-            <TSPServices>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/PID</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">EUDIW Testing Issuer</Name>
-                        </ServiceName>
-                        <ServiceDigitalIdentity>
-                            <DigitalId>
-<X509SubjectName>Public Key</X509SubjectName>
-                            </DigitalId>
-                            <DigitalId>
-<X509SKI>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu9To4c1xJlZLrKZ0IUlpksH4Yt/PRogLxes1XxqZfnKHHkcFH1RasxZEB4lAsrwtAmWRHZWd4/aUQkpHAHwau3lEu2rSlKtE9q2Fi5xw1261Dp7EmV3bmarM5uqluEU+GApQFNGgqPGVpQEGSlRpbdY9Fys5tNGI9lIKqNm17if5uGmmXSBY4Qc9JOWBNPuOIM7HxzjaPWpcP4s9MwYR2bk3Jpg0MzcsKW1TptunRZpWeiIwXLd5NATN2Hq1ZQdSxCVaXzPqJzuG0RaOqSMr0p0hs6DtXqceMOfenKVUHwemuVrBFEmKbyplRrcuKdvWqcqiKJqGfgfCoBACJcws4QIDAQAB</X509SKI>
-                            </DigitalId>
-                        </ServiceDigitalIdentity>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-03-04T22:00:00Z</StatusStartingTime>
-                        <SchemeServiceDefinitionURI>
-                            <URI xml:lang="en">https://grnet.gr</URI>
-                        </SchemeServiceDefinitionURI>
-                        <ServiceSupplyPoints>
-                            <ServiceSupplyPoint>https://snf-895798.vm.okeanos.grnet.gr:5000</ServiceSupplyPoint>
-                        </ServiceSupplyPoints>
-                        <TSPServiceDefinitionURI>
-                            <URI xml:lang="en">https://github.com/grnet/eudi-srv-web-verifier-endpoint-23220-4-kt/tree/okeanos</URI>
-                        </TSPServiceDefinitionURI>
-                    </ServiceInformation>
-                </TSPService>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/NPWP</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">EUDI Wallet</Name>
-                        </ServiceName>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-03-04T22:00:00Z</StatusStartingTime>
-                        <SchemeServiceDefinitionURI>
-                            <URI xml:lang="en">eudiwalletconsortium.org</URI>
-                        </SchemeServiceDefinitionURI>
-                        <ServiceSupplyPoints>
-                            <ServiceSupplyPoint>https://grnet.gr</ServiceSupplyPoint>
-                        </ServiceSupplyPoints>
-                        <TSPServiceDefinitionURI>
-                            <URI xml:lang="en">https://github.com/gfour/eudi-app-android-wallet-ui/tree/okeanos</URI>
-                        </TSPServiceDefinitionURI>
-                    </ServiceInformation>
-                </TSPService>
-            </TSPServices>
-        </TrustServiceProvider>
-        <TrustServiceProvider>
-            <TSPInformation>
-                <TSPName>
-                    <Name xml:lang="en">Validated ID</Name>
-                </TSPName>
-                <TSPTradeName>
-                    <Name xml:lang="en">Validated ID S.L.</Name>
-                </TSPTradeName>
-                <TSPAddress>
-                    <PostalAddresses>
-                        <PostalAddress xml:lang="en">
-                            <StreetAddress>C/ Sepúlveda 143, 4º2ª</StreetAddress>
-                            <Locality>Barcelona</Locality>
-                            <PostalCode>08011</PostalCode>
-                            <CountryName>ES</CountryName>
-                        </PostalAddress>
-                    </PostalAddresses>
-                    <ElectronicAddress>
-                        <URI xml:lang="en">mailto:vididentity-projects@validatedid.com</URI>
-                    </ElectronicAddress>
-                </TSPAddress>
-                <TSPInformationURI>
-                    <URI xml:lang="en">https://validatedid.com</URI>
-                </TSPInformationURI>
-            </TSPInformation>
-            <TSPServices>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/NPWP</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">ID Wallet LSP</Name>
-                        </ServiceName>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-03-04T22:00:00Z</StatusStartingTime>
-                        <SchemeServiceDefinitionURI>
-                            <URI xml:lang="en">https://eudiwalletconsortium.org/</URI>
-                        </SchemeServiceDefinitionURI>
-                        <ServiceSupplyPoints>
-                            <ServiceSupplyPoint>https://validatedid.com</ServiceSupplyPoint>
-                        </ServiceSupplyPoints>
-                        <TSPServiceDefinitionURI>
-                            <URI xml:lang="en">https://validatedid.com</URI>
-                        </TSPServiceDefinitionURI>
-                    </ServiceInformation>
-                </TSPService>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">VIDcredentials Studio</Name>
-                        </ServiceName>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-03-04T22:00:00Z</StatusStartingTime>
-                        <SchemeServiceDefinitionURI>
-                            <URI>https://eudiwalletconsortium.org/</URI>
-                        </SchemeServiceDefinitionURI>
-                        <ServiceSupplyPoints>
-                            <ServiceSupplyPoint>Labs-studio.vididentity.net</ServiceSupplyPoint>
-                        </ServiceSupplyPoints>
-                        <TSPServiceDefinitionURI>
-                            <URI xml:lang="en">Labs-studio.vididentity.net</URI>
-                        </TSPServiceDefinitionURI>
-                    </ServiceInformation>
-                </TSPService>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">VIDsigner</Name>
-                        </ServiceName>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-03-04T22:00:00Z</StatusStartingTime>
-                        <SchemeServiceDefinitionURI>
-                            <URI xml:lang="en">https://eudiwalletconsortium.org/</URI>
-                        </SchemeServiceDefinitionURI>
-                        <ServiceSupplyPoints>
-                            <ServiceSupplyPoint>https://validatedid.com</ServiceSupplyPoint>
-                        </ServiceSupplyPoints>
-                        <TSPServiceDefinitionURI>
-                            <URI xml:lang="en">https://validatedid.com</URI>
-                        </TSPServiceDefinitionURI>
-                    </ServiceInformation>
-                </TSPService>
-            </TSPServices>
-        </TrustServiceProvider>
-        <TrustServiceProvider>
-            <TSPInformation>
-                <TSPName>
-                    <Name xml:lang="en">CFF</Name>
-                </TSPName>
-                <TSPTradeName>
-                    <Name xml:lang="en">Cyclades Fast Ferries</Name>
-                </TSPTradeName>
-                <TSPAddress>
-                    <PostalAddresses>
-                        <PostalAddress xml:lang="en">
-                            <StreetAddress>10 Skouze str</StreetAddress>
-                            <Locality>Piraeus</Locality>
-                            <PostalCode>18536</PostalCode>
-                            <CountryName>EL</CountryName>
-                        </PostalAddress>
-                    </PostalAddresses>
-                    <ElectronicAddress>
-                        <URI xml:lang="en">mailto:triantafyllou.ni@aegean.gr</URI>
-                    </ElectronicAddress>
-                </TSPAddress>
-                <TSPInformationURI>
-                    <URI xml:lang="en">https://fastferries.com.gr/en/</URI>
-                </TSPInformationURI>
-            </TSPInformation>
-            <TSPServices>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en"></Name>
-                        </ServiceName>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-03-04T22:00:00Z</StatusStartingTime>
-                    </ServiceInformation>
-                </TSPService>
-            </TSPServices>
-        </TrustServiceProvider>
-        <TrustServiceProvider>
-            <TSPInformation>
-                <TSPName>
-                    <Name xml:lang="en">Digidentity</Name>
-                </TSPName>
-                <TSPTradeName>
-                    <Name xml:lang="en">Digidentity BV</Name>
-                </TSPTradeName>
-                <TSPAddress>
-                    <PostalAddresses>
-                        <PostalAddress xml:lang="en">
-                            <StreetAddress>Schenkkade 50</StreetAddress>
-                            <Locality>Den Haag</Locality>
-                            <PostalCode>2595 AR</PostalCode>
-                            <CountryName>NL</CountryName>
-                        </PostalAddress>
-                    </PostalAddresses>
-                    <ElectronicAddress>
-                        <URI xml:lang="en">mailto:helpdesk@digidentity.co.uk</URI>
-                    </ElectronicAddress>
-                </TSPAddress>
-                <TSPInformationURI>
-                    <URI xml:lang="en">https://www.digidentity.eu/</URI>
-                </TSPInformationURI>
-            </TSPInformation>
-            <TSPServices>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/PID</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">Digidentity PID</Name>
-                        </ServiceName>
-                        <ServiceDigitalIdentity>
-                            <DigitalId>
-<X509Certificate>MIICbTCCAhKgAwIBAgIBADAKBggqhkjOPQQDAjBfMQswCQYDVQQGEwJOTDEUMBIGA1UECgwLRGlnaWRlbnRpdHkxFDASBgNVBAsMC1NlbGYgU2lnbmVkMSQwIgYDVQQDDBtTZWxmIFNpZ25lZCBmb3IgZWNfa2V5X3BhaXIwHhcNMjUwNTA3MTM1NjMzWhcNMjgwNTA3MTM1NjMzWjBfMQswCQYDVQQGEwJOTDEUMBIGA1UECgwLRGlnaWRlbnRpdHkxFDASBgNVBAsMC1NlbGYgU2lnbmVkMSQwIgYDVQQDDBtTZWxmIFNpZ25lZCBmb3IgZWNfa2V5X3BhaXIwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAQQfVym6aHcyset8x1wsiJTYLdNEMHC0kk2/rgTIW2tbf0jmZecHeTGS8SLQIvQIByrvUPnzc2E6KehkUENLySZo4G+MIG7MA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFKwzoKxYxY8UzMect01PxH5uFASeMIGIBgNVHSMEgYAwfoAUrDOgrFjFjxTMx5y3TU/Efm4UBJ6hY6RhMF8xCzAJBgNVBAYTAk5MMRQwEgYDVQQKDAtEaWdpZGVudGl0eTEUMBIGA1UECwwLU2VsZiBTaWduZWQxJDAiBgNVBAMMG1NlbGYgU2lnbmVkIGZvciBlY19rZXlfcGFpcoIBADAKBggqhkjOPQQDAgNJADBGAiEA8Gm/2LAmI2BoJfsydg69lvStq8xB/wSxz/sjWi464wECIQD3XsJ82tJ3v1sCbrCRLM5z8HCMx+nr9iq2Se+iVQzWyg==</X509Certificate>
-                            </DigitalId>
-                        </ServiceDigitalIdentity>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-03-04T22:00:00Z</StatusStartingTime>
-                        <SchemeServiceDefinitionURI>
-                            <URI xml:lang="en">https://eudiwalletconsortium.org/</URI>
-                        </SchemeServiceDefinitionURI>
-                    </ServiceInformation>
-                </TSPService>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/NPWP</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">Digidentity Wallet</Name>
-                        </ServiceName>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-03-04T22:00:00Z</StatusStartingTime>
-                        <SchemeServiceDefinitionURI>
-                            <URI xml:lang="en">https://eudiwalletconsortium.org/</URI>
-                        </SchemeServiceDefinitionURI>
-                    </ServiceInformation>
-                </TSPService>
-            </TSPServices>
-        </TrustServiceProvider>
-        <TrustServiceProvider>
-            <TSPInformation>
-                <TSPName>
-                    <Name xml:lang="en">Buda Castle Experience</Name>
-                </TSPName>
-                <TSPTradeName>
-                    <Name xml:lang="en">Budavári Palota - RDE Pilot</Name>
-                </TSPTradeName>
-                <TSPAddress>
-                    <PostalAddresses>
-                        <PostalAddress xml:lang="en">
-                            <StreetAddress>Szent György tér 2</StreetAddress>
-                            <Locality>Budapest</Locality>
-                            <PostalCode>1014</PostalCode>
-                            <CountryName>HU</CountryName>
-                        </PostalAddress>
-                    </PostalAddresses>
-                    <ElectronicAddress>
-                        <URI xml:lang="en">mailto:info@rde-ewc.hu</URI>
-                    </ElectronicAddress>
-                </TSPAddress>
-                <TSPInformationURI>
-                    <URI xml:lang="en">https://rde-ewc.hu/budacastleexperience_dev</URI>
-                </TSPInformationURI>
-            </TSPInformation>
-            <TSPServices>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">Buda Castle Ticket DEV Issuer</Name>
-                        </ServiceName>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-05-01T00:00:00Z</StatusStartingTime>
-                        <ServiceSupplyPoints>
-                            <ServiceSupplyPoint>https://www.rde-ewc.hu/api_dev</ServiceSupplyPoint>
-                        </ServiceSupplyPoints>
-                    </ServiceInformation>
-                </TSPService>
-            </TSPServices>
-        </TrustServiceProvider>
-        <TrustServiceProvider>
-            <TSPInformation>
-                <TSPName>
-                    <Name xml:lang="en">Signicat</Name>
-                </TSPName>
-                <TSPTradeName>
-                    <Name xml:lang="en">Signicat AS</Name>
-                </TSPTradeName>
-                <TSPAddress>
-                    <PostalAddresses>
-                        <PostalAddress xml:lang="en">
-                            <StreetAddress>Beddingen 16</StreetAddress>
-                            <Locality>Trondheim</Locality>
-                            <PostalCode>7042</PostalCode>
-                            <CountryName>NO</CountryName>
-                        </PostalAddress>
-                    </PostalAddresses>
-                    <ElectronicAddress>
-                        <URI xml:lang="en">mailto:technicalsupport@signicat.com</URI>
-                    </ElectronicAddress>
-                </TSPAddress>
-                <TSPInformationURI>
-                    <URI xml:lang="en">https://www.signicat.com/</URI>
-                </TSPInformationURI>
-            </TSPInformation>
-            <TSPServices>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">Signicat EAA Issuer</Name>
-                        </ServiceName>
-                        <ServiceDigitalIdentity>
-                            <DigitalId>
-<X509Certificate>MIICZzCCAe2gAwIBAgIUG1DTFCv8QETYmDn4dtQ+Ulhru4IwCgYIKoZIzj0EAwIwdTEZMBcGA1UEAwwQYXBpLnNpZ25pY2F0LmRldjELMAkGA1UEBhMCTkwxEjAQBgNVBAcMCVJvdHRlcmRhbTERMA8GA1UECgwIU2lnbmljYXQxDDAKBgNVBAsMA1ImRDEWMBQGA1UECAwNU291dGggSG9sbGFuZDAeFw0yNTA0MTEwNjIwNTJaFw0zNTA0MDkwNjIwNTJaMHUxGTAXBgNVBAMMEGFwaS5zaWduaWNhdC5kZXYxCzAJBgNVBAYTAk5MMRIwEAYDVQQHDAlSb3R0ZXJkYW0xETAPBgNVBAoMCFNpZ25pY2F0MQwwCgYDVQQLDANSJkQxFjAUBgNVBAgMDVNvdXRoIEhvbGxhbmQwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAAS6qZB9kqrjUGE6w463NuxFFlOvhEXwTyk2TrXeH47/cXTf40AXhGTruhLc1HitLVK1KrFvUJ/GZJy5VYlxFnjbrIo0xM/28tNKmv8dBCKRPQblJ5M3hkPbDBNXA/UvCoajPjA8MBsGA1UdEQQUMBKCEGFwaS5zaWduaWNhdC5kZXYwHQYDVR0OBBYEFKlEwy7cyVAZzMtWnOlZXsDxutcqMAoGCCqGSM49BAMCA2gAMGUCMQC1WgBh2XETCfS+jkxrqPLCd+xH/bmYHQ9QGS0iEftKGMmE/TLToSsu3GTDAY8Aa8YCMAn2JFpm1cygjvlPaU23qYeK0FfXCOjMtuEXtTwcqqgNGK15WkFvulJP1JGenBReJA==</X509Certificate>
-                            </DigitalId>
-                            <DigitalId>
-<X509SKI>A944C32EDCC95019CCCB569CE9595EC0F1BAD72A</X509SKI>
-                            </DigitalId>
-                        </ServiceDigitalIdentity>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-05-20T00:00:00Z</StatusStartingTime>
-                        <ServiceSupplyPoints>
-                            <ServiceSupplyPoint>https://api.signicat.dev</ServiceSupplyPoint>
-                        </ServiceSupplyPoints>
-                    </ServiceInformation>
-                </TSPService>
-            </TSPServices>
-        </TrustServiceProvider>
-        <TrustServiceProvider>
-            <TSPInformation>
-                <TSPName>
-                    <Name xml:lang="en">Digital and Population Data Services Agency (DVV)</Name>
-                </TSPName>
-                <TSPTradeName>
-                    <Name xml:lang="en">Digital and Population Data Services Agency (DVV)</Name>
-                </TSPTradeName>
-                <TSPAddress>
-                    <PostalAddresses>
-                        <PostalAddress xml:lang="en">
-                            <StreetAddress>Lintulahdenkuja 2</StreetAddress>
-                            <Locality>Helsinki</Locality>
-                            <PostalCode>00530</PostalCode>
-                            <CountryName>FI</CountryName>
-                        </PostalAddress>
-                    </PostalAddresses>
-                    <ElectronicAddress>
-                        <URI xml:lang="en">mailto:digihenkilollisyys@dvv.fi</URI>
-                    </ElectronicAddress>
-                </TSPAddress>
-                <TSPInformationURI>
-                    <URI xml:lang="en">https://dvv.fi/en/</URI>
-                </TSPInformationURI>
-            </TSPInformation>
-            <TSPServices>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/NPWP</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">EUDI Wallet Demo</Name>
-                        </ServiceName>
-                        <ServiceDigitalIdentity>
-                            <DigitalId>
-<X509SubjectName>Public Key</X509SubjectName>
-                            </DigitalId>
-                            <DigitalId>
-<X509SKI>MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAExsyL4dKJkgLWQKNTly+4HRUiVPhbyU8hRz1h7Kx+iwSMdADjZrr9JNv3JdJbZPElFpvcDuH7b05K/NcuCP78DA==</X509SKI>
-                            </DigitalId>
-                        </ServiceDigitalIdentity>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-03-15T22:00:00Z</StatusStartingTime>
-                        <ServiceSupplyPoints>
-                            <ServiceSupplyPoint>https://wiki.dvv.fi/spaces/EDI/pages/235522018/2.+DVV+n+esimerkkisovellus+Finnish+EUDI+Wallet+Demo+mobile+application</ServiceSupplyPoint>
-                        </ServiceSupplyPoints>
-                    </ServiceInformation>
-                </TSPService>
-            </TSPServices>
-        </TrustServiceProvider>
-        <TrustServiceProvider>
-            <TSPInformation>
-                <TSPName>
-                    <Name xml:lang="en">IDunion</Name>
-                </TSPName>
-                <TSPTradeName>
-                    <Name xml:lang="en">IDunion SCE</Name>
-                </TSPTradeName>
-                <TSPAddress>
-                    <PostalAddresses>
-                        <PostalAddress xml:lang="en">
-                            <StreetAddress>Rheinstrasse 5</StreetAddress>
-                            <Locality>Langen (Hessen)</Locality>
-                            <PostalCode>63225</PostalCode>
-                            <CountryName>DE</CountryName>
-                        </PostalAddress>
-                    </PostalAddresses>
-                    <ElectronicAddress>
-                        <URI xml:lang="en">mailto:info@idunion.eu</URI>
-                    </ElectronicAddress>
-                </TSPAddress>
-                <TSPInformationURI>
-                    <URI xml:lang="en">https://idunion.eu</URI>
-                </TSPInformationURI>
-            </TSPInformation>
-            <TSPServices>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">IDunion EAA Issuer</Name>
-                        </ServiceName>
-                        <ServiceDigitalIdentity>
-                            <DigitalId>
-<X509SubjectName>Public Key</X509SubjectName>
-                            </DigitalId>
-                            <DigitalId>
-<X509SKI>MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyKA8lnxAD8nU8GqknJvJAZNgkxOcl9TdNW6A7KrOxjJZjfcyr5rZksR7QB5n+cW5/vxKyO/jfDC+J26sgxMk5w==</X509SKI>
-                            </DigitalId>
-                        </ServiceDigitalIdentity>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-06-04T22:00:00Z</StatusStartingTime>
-                        <ServiceSupplyPoints>
-                            <ServiceSupplyPoint>https://wallet.idunion.info/</ServiceSupplyPoint>
-                            <ServiceSupplyPoint>https://api.wallet.idunion.info/api/v1</ServiceSupplyPoint>
-                        </ServiceSupplyPoints>
-                    </ServiceInformation>
-                </TSPService>
-            </TSPServices>
-        </TrustServiceProvider>
-        <TrustServiceProvider>
-            <TSPInformation>
-                <TSPName>
-                    <Name xml:lang="en">Sicpa</Name>
-                </TSPName>
-                <TSPTradeName>
-                    <Name xml:lang="en">Sicpa Spain SLU</Name>
-                </TSPTradeName>
-                <TSPAddress>
-                    <PostalAddresses>
-                        <PostalAddress xml:lang="en">
-                            <StreetAddress>República Dominicana</StreetAddress>
-                            <Locality>Madrid</Locality>
-                            <PostalCode>28806</PostalCode>
-                            <CountryName>ES</CountryName>
-                        </PostalAddress>
-                    </PostalAddresses>
-                    <ElectronicAddress>
-                        <URI xml:lang="en">mailto:support@sicpa.com</URI>
-                    </ElectronicAddress>
-                </TSPAddress>
-                <TSPInformationURI>
-                    <URI xml:lang="en">https://docs.dip.sicpa.com</URI>
-                </TSPInformationURI>
-            </TSPInformation>
-            <TSPServices>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAAValidation</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">Apartamentos Michelangelo</Name>
-                        </ServiceName>
-                        <ServiceDigitalIdentity>
-                            <DigitalId>
-<X509Certificate>MIICKTCCAc6gAwIBAgIUMchGweQ8t+F1xv+u9kHginlLgG8wCgYIKoZIzj0EAwIwQDELMAkGA1UEBhMCQ0gxDjAMBgNVBAoMBVNpY3BhMSEwHwYDVQQDDBhTaWNwYSBDbG91ZCBSb290IENBIFRlc3QwHhcNMjUwNTI4MTIxMzIzWhcNMjcwODMxMTIxMzIzWjBDMQswCQYDVQQGEwJDSDEOMAwGA1UECgwFU2ljcGExJDAiBgNVBAMMG29wZW5pZC5wcmUudmMtZHRzLnNpY3BhLmNvbTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABC2TswG+CjJH0ysFYQ4ffSRPZCZeRGUufD7dhUgZL+LKlK3j4mx0pvh3f1c2got9QC2wAeY1+yyMKZK1vrZEzGOjgaIwgZ8wHwYDVR0jBBgwFoAUSzgasspwBPOHuVGLF748YjlSg7UwCQYDVR0TBAIwADALBgNVHQ8EBAMCBPAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMCYGA1UdEQQfMB2CG29wZW5pZC5wcmUudmMtZHRzLnNpY3BhLmNvbTAdBgNVHQ4EFgQUe1j1HCuqPO1H75dUoaO+YOQUVR0wCgYIKoZIzj0EAwIDSQAwRgIhAOq4E/Ou0uli/F8kkgsKdM1r2tEN3fmFD4/VfH8kxtAwAiEAj+y4VcMQhOLr/Bbe+aM6NSkUdcEGAxE/mzAolZW0E+o=</X509Certificate>
-                            </DigitalId>
-                            <DigitalId>
-<X509SubjectName>CN=openid.pre.vc-dts.sicpa.com, O=Sicpa, C=CH</X509SubjectName>
-                            </DigitalId>
-                            <DigitalId>
-<X509SKI>e1j1HCuqPO1H75dUoaO+YOQUVR0=</X509SKI>
-                            </DigitalId>
-                        </ServiceDigitalIdentity>
-                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
-                        <StatusStartingTime>2025-07-06T22:00:00Z</StatusStartingTime>
-                    </ServiceInformation>
-                </TSPService>
-            </TSPServices>
-        </TrustServiceProvider>
-    </TrustServiceProviderList>
+	<SchemeInformation>
+		<TSLVersionIdentifier>5</TSLVersionIdentifier>
+		<TSLSequenceNumber>1</TSLSequenceNumber>
+		<TSLType>https://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric/</TSLType>
+		<SchemeOperatorName>
+			<Name xml:lang="en">EWC Consortium</Name>
+		</SchemeOperatorName>
+		<SchemeOperatorAddress>
+			<PostalAddresses>
+				<PostalAddress xml:lang="en">
+					<StreetAddress>Stuvarvägen 21</StreetAddress>
+					<Locality>Sundsvall</Locality>
+					<PostalCode>85181</PostalCode>
+					<CountryName>SE</CountryName>
+				</PostalAddress>
+			</PostalAddresses>
+			<ElectronicAddress>
+				<URI xml:lang="en">mailto:info@eudiwalletconsortium.org</URI>
+			</ElectronicAddress>
+		</SchemeOperatorAddress>
+		<SchemeName>
+			<Name xml:lang="en">TT:EN_EWC_TrustList</Name>
+		</SchemeName>
+		<SchemeInformationURI/>
+		<StatusDeterminationApproach>https://uri.etsi.org/TrstSvc/TrustedList/StatusDetn/EUappropriate/</StatusDeterminationApproach>
+		<SchemeTypeCommunityRules>
+			<URI xml:lang="en">https://uri.etsi.org/TrstSvc/TrustedList/schemerules/EU/</URI>
+		</SchemeTypeCommunityRules>
+		<SchemeTerritory>TT</SchemeTerritory>
+		<PolicyOrLegalNotice/>
+		<HistoricalInformationPeriod>0</HistoricalInformationPeriod>
+		<PointersToOtherTSL/>
+		<ListIssueDateTime>2025-02-13T01:00:00Z</ListIssueDateTime>
+		<NextUpdate>
+			<dateTime>2025-08-13T00:00:00Z</dateTime>
+		</NextUpdate>
+	</SchemeInformation>
+	<TrustServiceProviderList>
+		<TrustServiceProvider>
+			<TSPInformation>
+				<TSPName>
+					<Name xml:lang="en">Tinexta Infocert</Name>
+				</TSPName>
+				<TSPTradeName>
+					<Name xml:lang="en">Tinexta Infocert</Name>
+				</TSPTradeName>
+				<TSPAddress>
+					<PostalAddresses>
+						<PostalAddress xml:lang="en">
+							<StreetAddress>Piazzale Flaminio 1B</StreetAddress>
+							<Locality>Rome</Locality>
+							<PostalCode>00196</PostalCode>
+							<CountryName>Italy</CountryName>
+						</PostalAddress>
+					</PostalAddresses>
+					<ElectronicAddress>
+						<URI xml:lang="en">mailto:leone.riello@infocert.it</URI>
+					</ElectronicAddress>
+				</TSPAddress>
+				<TSPInformationURI>
+					<URI xml:lang="en">https://www.infocert.it</URI>
+				</TSPInformationURI>
+			</TSPInformation>
+			<TSPServices>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="en">Infocert EU Qualified Electronic Signature</Name>
+						</ServiceName>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-05-23T23:00:00Z</StatusStartingTime>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="en">Infocert EAA</Name>
+						</ServiceName>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-05-23T23:00:00Z</StatusStartingTime>
+					</ServiceInformation>
+				</TSPService>
+			</TSPServices>
+		</TrustServiceProvider>
+		<TrustServiceProvider>
+			<TSPInformation>
+				<TSPName>
+					<Name xml:lang="en">INTESI GROUP</Name>
+				</TSPName>
+				<TSPTradeName>
+					<Name xml:lang="en">INTESI GROUP S.p.A.</Name>
+				</TSPTradeName>
+				<TSPAddress>
+					<PostalAddresses>
+						<PostalAddress xml:lang="en">
+							<StreetAddress>Via Torino 48</StreetAddress>
+							<Locality>Milan</Locality>
+							<StateOrProvince>Milan</StateOrProvince>
+							<PostalCode>20123</PostalCode>
+							<CountryName>IT</CountryName>
+						</PostalAddress>
+					</PostalAddresses>
+					<ElectronicAddress>
+						<URI xml:lang="en">mailto:info@intesigroup.com</URI>
+					</ElectronicAddress>
+				</TSPAddress>
+				<TSPInformationURI>
+					<URI xml:lang="en">https://www.intesigroup.com/en/</URI>
+				</TSPInformationURI>
+			</TSPInformation>
+			<TSPServices>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="en">Intesi Group EU Qualified Electronic Signature</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509Certificate>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</X509Certificate>
+							</DigitalId>
+							<DigitalId>
+								<X509SubjectName>C=IT, OID.2.5.4.97=VATIT-02780480964, O=Intesi Group S.p.A., OU=Test Qualified Trust Service Provider, CN=Intesi Group EU Qualified Electronic Seal CA Test</X509SubjectName>
+							</DigitalId>
+							<DigitalId>
+								<X509SKI>yAL2lFZ3I5aSckvtLRsbOPlt3gg=</X509SKI>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="en">IG EAA</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509Certificate>MIIGDDCCA/SgAwIBAgIIPHJf6Gniw1UwDQYJKoZIhvcNAQELBQAwgbMxOjA4BgNVBAMMMUludGVzaSBHcm91cCBFVSBRdWFsaWZpZWQgRWxlY3Ryb25pYyBTZWFsIENBIFRlc3QxLjAsBgNVBAsMJVRlc3QgUXVhbGlmaWVkIFRydXN0IFNlcnZpY2UgUHJvdmlkZXIxHDAaBgNVBAoME0ludGVzaSBHcm91cCBTLnAuQS4xGjAYBgNVBGEMEVZBVElULTAyNzgwNDgwOTY0MQswCQYDVQQGEwJJVDAeFw0yNTA2MjQxMzQyMDBaFw0yNzA3MTkxNDE0NDFaMHAxCzAJBgNVBAYTAklUMRkwFwYDVQRhDBBWQVRJVC02MTUyNDMxMzI0MRUwEwYDVQQKDAxJbnRlc2kgR3JvdXAxFTATBgNVBAMMDEludGVzaSBHcm91cDEYMBYGA1UELhMPUkUxNzUwNzcyNTQzMjE4MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESKOcBQRzn0dWipYi/WKE4rhqMPzWsKednVDTeEh5UrtNzPypvWZ1Runa7jMsKqfTyunVvfuUw4YlnWuSN9k3yaOCAi8wggIrMHsGCCsGAQUFBwEBBG8wbTBEBggrBgEFBQcwAoY4aHR0cDovL3d3dy50ZXN0NG1pbmQuY29tL0ludGVzaS9xdWFsaWZpZWRzaWduYXR1cmVDQS5jZXIwJQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnRlc3Q0bWluZC5jb20wHQYDVR0OBBYEFE1K0zbwl725KoCJDsd8ntbTWA7oMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUyAL2lFZ3I5aSckvtLRsbOPlt3ggwgZMGCCsGAQUFBwEDBIGGMIGDMBUGCCsGAQUFBwsCMAkGBwQAi+xJAQIwCAYGBACORgEBMAsGBgQAjkYBAwIBFDAIBgYEAI5GAQQwEwYGBACORgEGMAkGBwQAjkYBBgIwNAYGBACORgEFMCowKBYiaHR0cHM6Ly93d3cuaW50ZXNpZ3JvdXAuY29tL2VuL3RzcBMCZW4wVQYDVR0gBE4wTDAJBgcEAIvsQAEDMD8GDCsGAQQBgv5eAQMEATAvMC0GCCsGAQUFBwIBFiFodHRwOi8vd3d3LmludGVzaWdyb3VwLmNvbS9lbi90c3AwRAYDVR0fBD0wOzA5oDegNYYzaHR0cDovL2NybC50ZXN0NG1pbmQuY29tL0ludGVzaS9xdWFsaWZpZWRzZWFsQ0EuY3JsMA4GA1UdDwEB/wQEAwIGQDAbBgNVHREEFDASghBvaWQ0dmMuaWdyYW50LmlvMA0GCSqGSIb3DQEBCwUAA4ICAQCYfCQ/Xjr2QqEjWS02Jw2ACCJXSte4VnwYfgbdItmEytOcUxq1T06GIpAdV3a8lqgdykZtcGZJ0E2B7FI33e2S+uOBeyD7/BWdU5l27cYrh0a8gu0pKD1uYRbLSvH52OjKr+LuepQxj5vxNfiiaDyY6iyI/LiM7whFrrk5ZUdToMNndAqXkoUlpe2Kfs4E9x3YnGahneKStnELS8gd2NDtxq0lWUzpTGJUFBjGIBWE3Z9YTL0NTbef+/nXnscPoqu6wJO+0BHsrzRd5i+t8rAXMv96x4fV3jeYKqvtD7Cd3YmP55KKU4Fs1tlF2F5NoF9dcXVZmxe83ntTOyqUwSNlWh1d0D2hqTkanWSeaocZBW8I3eGw1VtRVtRx3iYCKoR6EmckU9NLG2xDR0L3ACTv1weL9koxWdJAv7jOYM8UI8bmvW386xcms+zV6YtKhjsEx+lc6R47izam+cCp59KAbEy8Ve+U8VpGzAlFt5Yn46d0J0jsGQzir0raLuuvqrPJ8xXqJuapqmGgtI4JEGwlAWPF+8d0YlVijgFOItOLeNyA2nWQC1EtZby3teqsbsgd1CnXicm/8kvD90GnT3PYyxCg9r/V4NVR47gRjKqAfjHISL9fwSN/v8xPL0O3V/7XzITSUvyU34dDJcidOHPktwPO8ZliSpCZD0Yi9jlr7Q==</X509Certificate>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="en">Intesi Group PhotoID EAA</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509Certificate>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</X509Certificate>
+							</DigitalId>
+							<DigitalId>
+								<X509SubjectName>DNQ=RE17362863822, CN=Intesi Group S.p.A., O=Intesi Group S.p.A., OID.2.5.4.97=VATIT-02780480964, C=IT</X509SubjectName>
+							</DigitalId>
+							<DigitalId>
+								<X509SKI>o5sXI36N2PUiknOrs7ZAVcht8os=</X509SKI>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-06-30T22:00:00Z</StatusStartingTime>
+					</ServiceInformation>
+				</TSPService>
+			</TSPServices>
+		</TrustServiceProvider>
+		<TrustServiceProvider>
+			<TSPInformation>
+				<TSPName>
+					<Name xml:lang="en">Banca Transilvania</Name>
+				</TSPName>
+				<TSPTradeName>
+					<Name xml:lang="en">Banca Transilvania S.A.</Name>
+				</TSPTradeName>
+				<TSPAddress>
+					<PostalAddresses>
+						<PostalAddress xml:lang="en">
+							<StreetAddress>Calea Dorobanților 30-36</StreetAddress>
+							<Locality>Cluj-Napoca</Locality>
+							<PostalCode>400121</PostalCode>
+							<CountryName>RO</CountryName>
+						</PostalAddress>
+					</PostalAddresses>
+					<ElectronicAddress>
+						<URI xml:lang="en">mailto:contact@btrl.ro</URI>
+					</ElectronicAddress>
+				</TSPAddress>
+				<TSPInformationURI>
+					<URI xml:lang="en">https://www.bancatransilvania.ro</URI>
+				</TSPInformationURI>
+			</TSPInformation>
+			<TSPServices>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="en">Payment Authenticator Issuer</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509Certificate>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</X509Certificate>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>https://www.bancatransilvania.ro</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+					</ServiceInformation>
+				</TSPService>
+			</TSPServices>
+		</TrustServiceProvider>
+		<TrustServiceProvider>
+			<TSPInformation>
+				<TSPName>
+					<Name xml:lang="en">iGrant.io, Sweden</Name>
+				</TSPName>
+				<TSPTradeName>
+					<Name xml:lang="en">LCubed AB</Name>
+				</TSPTradeName>
+				<TSPAddress>
+					<PostalAddresses>
+						<PostalAddress xml:lang="en">
+							<StreetAddress>Bössvägen 28</StreetAddress>
+							<Locality>Sollentuna, Stockholm</Locality>
+							<PostalCode>19255</PostalCode>
+							<CountryName>SE</CountryName>
+						</PostalAddress>
+					</PostalAddresses>
+					<ElectronicAddress>
+						<URI xml:lang="en">mailto:support@igrant.io</URI>
+					</ElectronicAddress>
+				</TSPAddress>
+				<TSPInformationURI>
+					<URI xml:lang="en">https://igrant.io</URI>
+				</TSPInformationURI>
+			</TSPInformation>
+			<TSPServices>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/LPWP</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="en">iGrant.io Data Wallet ID-Wallet</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509Certificate>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</X509Certificate>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>https://datawallet.igrant.io/</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="en">iGrant.io Organisation Wallet Suite (EAA provider)</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509Certificate>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</X509Certificate>
+							</DigitalId>
+							<DigitalId>
+								<X509SubjectName>DNQ=RE1750081195431, CN=iGrant OID4VC, O=iGrant, OID.2.5.4.97=VATSE-13243546, C=SE</X509SubjectName>
+							</DigitalId>
+							<DigitalId>
+								<X509SKI>2t9CkaTwWgC5nBc0VrjVhdHbzqw=</X509SKI>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-06-30T22:00:00Z</StatusStartingTime>
+					</ServiceInformation>
+				</TSPService>
+			</TSPServices>
+		</TrustServiceProvider>
+		<TrustServiceProvider>
+			<TSPInformation>
+				<TSPName>
+					<Name xml:lang="en">Lissi GmbH</Name>
+				</TSPName>
+				<TSPTradeName>
+					<Name xml:lang="en">Lissi GmbH</Name>
+				</TSPTradeName>
+				<TSPAddress>
+					<PostalAddresses>
+						<PostalAddress xml:lang="en">
+							<StreetAddress>Eschersheimer Landstrasse 6</StreetAddress>
+							<Locality>Frankfurt</Locality>
+							<PostalCode>60318</PostalCode>
+							<CountryName>DE</CountryName>
+						</PostalAddress>
+					</PostalAddresses>
+					<ElectronicAddress>
+						<URI xml:lang="en">mailto:wallet@lissi.id</URI>
+					</ElectronicAddress>
+				</TSPAddress>
+				<TSPInformationURI>
+					<URI xml:lang="en">https://lissi.id/</URI>
+				</TSPInformationURI>
+			</TSPInformation>
+			<TSPServices>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/NPWP</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="en">Lissi ID-Wallet</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509SubjectName>Public Key</X509SubjectName>
+							</DigitalId>
+							<DigitalId>
+								<X509SKI>MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEANgoy24GN+JrsXCOMw1pXytmjCWcKjneRUOXuYdrbMPkL0pntym7jbQPqxYrBCh+V+8R5uwrNGJ2q4sui6iRyw==</X509SKI>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>https://wallet.lissi.io/</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+					</ServiceInformation>
+				</TSPService>
+			</TSPServices>
+		</TrustServiceProvider>
+		<TrustServiceProvider>
+			<TSPInformation>
+				<TSPName>
+					<Name xml:lang="en">CZ.NIC</Name>
+				</TSPName>
+				<TSPTradeName>
+					<Name xml:lang="en">CZ.NIC, z. s. p. o.</Name>
+				</TSPTradeName>
+				<TSPAddress>
+					<PostalAddresses>
+						<PostalAddress xml:lang="en">
+							<StreetAddress>Milesovska 5</StreetAddress>
+							<Locality>Prague</Locality>
+							<PostalCode>13000</PostalCode>
+							<CountryName>CZ</CountryName>
+						</PostalAddress>
+					</PostalAddresses>
+					<ElectronicAddress>
+						<URI xml:lang="en">mailto:jaromir.talir@nic.cz</URI>
+					</ElectronicAddress>
+				</TSPAddress>
+				<TSPInformationURI>
+					<URI xml:lang="en">https://www.nic.cz/</URI>
+				</TSPInformationURI>
+			</TSPInformation>
+			<TSPServices>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/PID</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="en">CZ PID</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509Certificate>MIICEjCCAbigAwIBAgIUXuNznwE04DifroXk4snWsDVuygowCgYIKoZIzj0EAwIwTjELMAkGA1UEBhMCQ1oxDzANBgNVBAcMBlByYWd1ZTEPMA0GA1UECgwGQ1ouTklDMR0wGwYDVQQDDBRldWRpdy5yZWd0ZXN0Lm5pYy5jejAeFw0yNTA3MTAwODM4NTNaFw0zNTA3MDgwODM4NTNaME4xCzAJBgNVBAYTAkNaMQ8wDQYDVQQHDAZQcmFndWUxDzANBgNVBAoMBkNaLk5JQzEdMBsGA1UEAwwUZXVkaXcucmVndGVzdC5uaWMuY3owWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAS2BtMWaZhzD3k1Ny2l3kI0mfGS/UCGEYIzDIkZwNANLley53ECNMKo2k3+4rLe9woQERruxLZhPMXc1WRZnSgYo3QwcjAdBgNVHQ4EFgQU7UvJDnAnht771esY6wwDW9prAPIwHwYDVR0jBBgwFoAU7UvJDnAnht771esY6wwDW9prAPIwDwYDVR0TAQH/BAUwAwEB/zAfBgNVHREEGDAWghRldWRpdy5yZWd0ZXN0Lm5pYy5jejAKBggqhkjOPQQDAgNIADBFAiEApMKwWPtJp0mDthChHB9wtOaw+DJIqaCnm414uCSV1HoCIFf4i3bQdwvJBBMX8xa2YU7Q9/Cmxjko/XbX6aTwz7se</X509Certificate>
+							</DigitalId>
+							<DigitalId>
+								<X509SubjectName>CN=eudiw.regtest.nic.cz, O=CZ.NIC, L=Prague, C=CZ</X509SubjectName>
+							</DigitalId>
+							<DigitalId>
+								<X509SKI>7UvJDnAnht771esY6wwDW9prAPI=</X509SKI>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="en">CZ.NIC EAA</Name>
+						</ServiceName>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-01-31T23:00:00Z</StatusStartingTime>
+					</ServiceInformation>
+				</TSPService>
+			</TSPServices>
+		</TrustServiceProvider>
+		<TrustServiceProvider>
+			<TSPInformation>
+				<TSPName>
+					<Name xml:lang="en">E-Group</Name>
+				</TSPName>
+				<TSPTradeName>
+					<Name xml:lang="en">E-Group ICT Software</Name>
+				</TSPTradeName>
+				<TSPAddress>
+					<PostalAddresses>
+						<PostalAddress xml:lang="en">
+							<StreetAddress>Also Torokvesz ut 2</StreetAddress>
+							<Locality>Budapest</Locality>
+							<PostalCode>1022</PostalCode>
+							<CountryName>HU</CountryName>
+						</PostalAddress>
+					</PostalAddresses>
+					<ElectronicAddress>
+						<URI xml:lang="en">mailto:info@egroup.hu</URI>
+					</ElectronicAddress>
+				</TSPAddress>
+				<TSPInformationURI>
+					<URI xml:lang="en">https://www.egroup.hu/</URI>
+				</TSPInformationURI>
+			</TSPInformation>
+			<TSPServices>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/NPWP</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="en">E-Group MyD Wallet</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509SubjectName>Public Key</X509SubjectName>
+							</DigitalId>
+							<DigitalId>
+								<X509SKI>MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEZt8+VkHRtplsqbizmVFRp4JozksEue/EFskUcSNHrjDe6AbdFQvfdSTFjs/hkPqSoVPF5p0cxUjgH39+Xis5Ng==</X509SKI>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-03-04T22:00:00Z</StatusStartingTime>
+						<SchemeServiceDefinitionURI>
+							<URI xml:lang="en">https://www.egroup.hu/</URI>
+						</SchemeServiceDefinitionURI>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>https://www.egroup.hu/</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+					</ServiceInformation>
+				</TSPService>
+			</TSPServices>
+		</TrustServiceProvider>
+		<TrustServiceProvider>
+			<TSPInformation>
+				<TSPName>
+					<Name xml:lang="en">DIGG</Name>
+				</TSPName>
+				<TSPTradeName>
+					<Name xml:lang="en">Agency for digital government</Name>
+				</TSPTradeName>
+				<TSPAddress>
+					<PostalAddresses>
+						<PostalAddress xml:lang="en">
+							<StreetAddress>Box 14</StreetAddress>
+							<Locality>Sundsvall</Locality>
+							<PostalCode>851 02</PostalCode>
+							<CountryName>SE</CountryName>
+						</PostalAddress>
+					</PostalAddresses>
+					<ElectronicAddress>
+						<URI xml:lang="en">mailto:info@digg.se</URI>
+					</ElectronicAddress>
+				</TSPAddress>
+				<TSPInformationURI>
+					<URI xml:lang="en">https://www.digg.se</URI>
+				</TSPInformationURI>
+			</TSPInformation>
+			<TSPServices>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/PID</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="en">Sweden PID</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509SubjectName>Public Key</X509SubjectName>
+							</DigitalId>
+							<DigitalId>
+								<X509SKI>MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESAFdIq8VSlvs32ZNURQgSOTqhntNw1c/Kfgx3jMgOJKgvVWLTzvDmLPI/Kf6oXKlPNNFrYAP2CxpYIhqkYKE2g==</X509SKI>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-03-04T22:00:00Z</StatusStartingTime>
+						<SchemeServiceDefinitionURI>
+							<URI xml:lang="en">https://wallet.sandbox.digg.se</URI>
+						</SchemeServiceDefinitionURI>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>https://wallet.sandbox.digg.se</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+						<TSPServiceDefinitionURI>
+							<URI xml:lang="en">https://wallet.sandbox.digg.se</URI>
+						</TSPServiceDefinitionURI>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/NPWP</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="en">DIGG Wallet</Name>
+						</ServiceName>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-03-04T22:00:00Z</StatusStartingTime>
+						<SchemeServiceDefinitionURI>
+							<URI xml:lang="en">eudiwalletconsortium.org</URI>
+						</SchemeServiceDefinitionURI>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>https://wallet.sandbox.digg.se</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+						<TSPServiceDefinitionURI>
+							<URI xml:lang="en">https://wallet.sandbox.digg.se</URI>
+						</TSPServiceDefinitionURI>
+					</ServiceInformation>
+				</TSPService>
+			</TSPServices>
+		</TrustServiceProvider>
+		<TrustServiceProvider>
+			<TSPInformation>
+				<TSPName>
+					<Name xml:lang="en">Uaegean</Name>
+				</TSPName>
+				<TSPTradeName>
+					<Name xml:lang="en">University of the Aegean</Name>
+				</TSPTradeName>
+				<TSPAddress>
+					<PostalAddresses>
+						<PostalAddress xml:lang="en">
+							<StreetAddress>University Hill</StreetAddress>
+							<Locality>Μytilene</Locality>
+							<PostalCode>81100</PostalCode>
+							<CountryName>EL</CountryName>
+						</PostalAddress>
+					</PostalAddresses>
+					<ElectronicAddress>
+						<URI xml:lang="en">mailto:triantafyllou.ni@aegean.gr</URI>
+					</ElectronicAddress>
+				</TSPAddress>
+				<TSPInformationURI>
+					<URI xml:lang="en">https://www.aegean.edu/</URI>
+				</TSPInformationURI>
+			</TSPInformation>
+			<TSPServices>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="en">Uaegean EAA</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509SubjectName>Public Key</X509SubjectName>
+							</DigitalId>
+							<DigitalId>
+								<X509SKI>MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEdMLtMHM+bYdiJRHJmfA7ypihS8JDAmci4q3FOeLy6mDxleHd06wugkVPVjoX74eBHq4GOw6J+dMiKJWdB+Chaw==</X509SKI>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-03-04T22:00:00Z</StatusStartingTime>
+						<SchemeServiceDefinitionURI>
+							<URI xml:lang="en">https://www.aegean.edu/</URI>
+						</SchemeServiceDefinitionURI>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>https://www.aegean.edu/</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+						<TSPServiceDefinitionURI>
+							<URI xml:lang="en">https://www.aegean.edu/</URI>
+						</TSPServiceDefinitionURI>
+					</ServiceInformation>
+					<ServiceHistory>
+						<ServiceHistoryInstance>
+							<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+							<ServiceName>
+								<Name xml:lang="en">Uaegean EAA</Name>
+							</ServiceName>
+							<ServiceDigitalIdentity>
+								<DigitalId>
+									<X509SubjectName>Old Public Key test</X509SubjectName>
+								</DigitalId>
+								<DigitalId>
+									<X509SKI>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu9To4c1xJlZLrKZ0IUlpksH4Yt/PRogLxes1XxqZfnKHHkcFH1RasxZEB4lAsrwtAmWRHZWd4/aUQkpHAHwau3lEu2rSlKtE9q2Fi5xw1261Dp7EmV3bmarM5uqluEU+GApQFNGgqPGVpQEGSlRpbdY9Fys5tNGI9lIKqNm17if5uGmmXSBY4Qc9JOWBNPuOIM7HxzjaPWpcP4s9MwYR2bk3Jpg0MzcsKW1TptunRZpWeiIwXLd5NATN2Hq1ZQdSxCVaXzPqJzuG0RaOqSMr0p0hs6DtXqceMOfenKVUHwemuVrBFEmKbyplRrcuKdvWqcqiKJqGfgfCoBACJcws4QIDAQAB</X509SKI>
+								</DigitalId>
+							</ServiceDigitalIdentity>
+							<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+							<StatusStartingTime>2024-12-31T22:00:00Z</StatusStartingTime>
+						</ServiceHistoryInstance>
+					</ServiceHistory>
+				</TSPService>
+			</TSPServices>
+		</TrustServiceProvider>
+		<TrustServiceProvider>
+			<TSPInformation>
+				<TSPName>
+					<Name>GRNET</Name>
+				</TSPName>
+				<TSPTradeName>
+					<Name xml:lang="en">GRNET SA</Name>
+				</TSPTradeName>
+				<TSPAddress>
+					<PostalAddresses>
+						<PostalAddress xml:lang="en">
+							<StreetAddress>Kifisias Av. 7</StreetAddress>
+							<Locality>Athens</Locality>
+							<PostalCode>11523</PostalCode>
+							<CountryName>EL</CountryName>
+						</PostalAddress>
+					</PostalAddresses>
+					<ElectronicAddress>
+						<URI xml:lang="en">mailto:info@grnet.gr</URI>
+					</ElectronicAddress>
+				</TSPAddress>
+				<TSPInformationURI>
+					<URI xml:lang="en">https://grnet.gr</URI>
+				</TSPInformationURI>
+			</TSPInformation>
+			<TSPServices>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/PID</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="en">EUDIW Testing Issuer</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509SubjectName>Public Key</X509SubjectName>
+							</DigitalId>
+							<DigitalId>
+								<X509SKI>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu9To4c1xJlZLrKZ0IUlpksH4Yt/PRogLxes1XxqZfnKHHkcFH1RasxZEB4lAsrwtAmWRHZWd4/aUQkpHAHwau3lEu2rSlKtE9q2Fi5xw1261Dp7EmV3bmarM5uqluEU+GApQFNGgqPGVpQEGSlRpbdY9Fys5tNGI9lIKqNm17if5uGmmXSBY4Qc9JOWBNPuOIM7HxzjaPWpcP4s9MwYR2bk3Jpg0MzcsKW1TptunRZpWeiIwXLd5NATN2Hq1ZQdSxCVaXzPqJzuG0RaOqSMr0p0hs6DtXqceMOfenKVUHwemuVrBFEmKbyplRrcuKdvWqcqiKJqGfgfCoBACJcws4QIDAQAB</X509SKI>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-03-04T22:00:00Z</StatusStartingTime>
+						<SchemeServiceDefinitionURI>
+							<URI xml:lang="en">https://grnet.gr</URI>
+						</SchemeServiceDefinitionURI>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>https://snf-895798.vm.okeanos.grnet.gr:5000</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+						<TSPServiceDefinitionURI>
+							<URI xml:lang="en">https://github.com/grnet/eudi-srv-web-verifier-endpoint-23220-4-kt/tree/okeanos</URI>
+						</TSPServiceDefinitionURI>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/NPWP</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="en">EUDI Wallet</Name>
+						</ServiceName>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-03-04T22:00:00Z</StatusStartingTime>
+						<SchemeServiceDefinitionURI>
+							<URI xml:lang="en">eudiwalletconsortium.org</URI>
+						</SchemeServiceDefinitionURI>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>https://grnet.gr</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+						<TSPServiceDefinitionURI>
+							<URI xml:lang="en">https://github.com/gfour/eudi-app-android-wallet-ui/tree/okeanos</URI>
+						</TSPServiceDefinitionURI>
+					</ServiceInformation>
+				</TSPService>
+			</TSPServices>
+		</TrustServiceProvider>
+		<TrustServiceProvider>
+			<TSPInformation>
+				<TSPName>
+					<Name xml:lang="en">Validated ID</Name>
+				</TSPName>
+				<TSPTradeName>
+					<Name xml:lang="en">Validated ID S.L.</Name>
+				</TSPTradeName>
+				<TSPAddress>
+					<PostalAddresses>
+						<PostalAddress xml:lang="en">
+							<StreetAddress>C/ Sepúlveda 143, 4º2ª</StreetAddress>
+							<Locality>Barcelona</Locality>
+							<PostalCode>08011</PostalCode>
+							<CountryName>ES</CountryName>
+						</PostalAddress>
+					</PostalAddresses>
+					<ElectronicAddress>
+						<URI xml:lang="en">mailto:vididentity-projects@validatedid.com</URI>
+					</ElectronicAddress>
+				</TSPAddress>
+				<TSPInformationURI>
+					<URI xml:lang="en">https://validatedid.com</URI>
+				</TSPInformationURI>
+			</TSPInformation>
+			<TSPServices>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/NPWP</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="en">ID Wallet LSP</Name>
+						</ServiceName>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-03-04T22:00:00Z</StatusStartingTime>
+						<SchemeServiceDefinitionURI>
+							<URI xml:lang="en">https://eudiwalletconsortium.org/</URI>
+						</SchemeServiceDefinitionURI>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>https://validatedid.com</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+						<TSPServiceDefinitionURI>
+							<URI xml:lang="en">https://validatedid.com</URI>
+						</TSPServiceDefinitionURI>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="en">VIDcredentials Studio</Name>
+						</ServiceName>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-03-04T22:00:00Z</StatusStartingTime>
+						<SchemeServiceDefinitionURI>
+							<URI>https://eudiwalletconsortium.org/</URI>
+						</SchemeServiceDefinitionURI>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>Labs-studio.vididentity.net</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+						<TSPServiceDefinitionURI>
+							<URI xml:lang="en">Labs-studio.vididentity.net</URI>
+						</TSPServiceDefinitionURI>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="en">VIDsigner</Name>
+						</ServiceName>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-03-04T22:00:00Z</StatusStartingTime>
+						<SchemeServiceDefinitionURI>
+							<URI xml:lang="en">https://eudiwalletconsortium.org/</URI>
+						</SchemeServiceDefinitionURI>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>https://validatedid.com</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+						<TSPServiceDefinitionURI>
+							<URI xml:lang="en">https://validatedid.com</URI>
+						</TSPServiceDefinitionURI>
+					</ServiceInformation>
+				</TSPService>
+			</TSPServices>
+		</TrustServiceProvider>
+		<TrustServiceProvider>
+			<TSPInformation>
+				<TSPName>
+					<Name xml:lang="en">CFF</Name>
+				</TSPName>
+				<TSPTradeName>
+					<Name xml:lang="en">Cyclades Fast Ferries</Name>
+				</TSPTradeName>
+				<TSPAddress>
+					<PostalAddresses>
+						<PostalAddress xml:lang="en">
+							<StreetAddress>10 Skouze str</StreetAddress>
+							<Locality>Piraeus</Locality>
+							<PostalCode>18536</PostalCode>
+							<CountryName>EL</CountryName>
+						</PostalAddress>
+					</PostalAddresses>
+					<ElectronicAddress>
+						<URI xml:lang="en">mailto:triantafyllou.ni@aegean.gr</URI>
+					</ElectronicAddress>
+				</TSPAddress>
+				<TSPInformationURI>
+					<URI xml:lang="en">https://fastferries.com.gr/en/</URI>
+				</TSPInformationURI>
+			</TSPInformation>
+			<TSPServices>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="en"/>
+						</ServiceName>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-03-04T22:00:00Z</StatusStartingTime>
+					</ServiceInformation>
+				</TSPService>
+			</TSPServices>
+		</TrustServiceProvider>
+		<TrustServiceProvider>
+			<TSPInformation>
+				<TSPName>
+					<Name xml:lang="en">Digidentity</Name>
+				</TSPName>
+				<TSPTradeName>
+					<Name xml:lang="en">Digidentity BV</Name>
+				</TSPTradeName>
+				<TSPAddress>
+					<PostalAddresses>
+						<PostalAddress xml:lang="en">
+							<StreetAddress>Schenkkade 50</StreetAddress>
+							<Locality>Den Haag</Locality>
+							<PostalCode>2595 AR</PostalCode>
+							<CountryName>NL</CountryName>
+						</PostalAddress>
+					</PostalAddresses>
+					<ElectronicAddress>
+						<URI xml:lang="en">mailto:helpdesk@digidentity.co.uk</URI>
+					</ElectronicAddress>
+				</TSPAddress>
+				<TSPInformationURI>
+					<URI xml:lang="en">https://www.digidentity.eu/</URI>
+				</TSPInformationURI>
+			</TSPInformation>
+			<TSPServices>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/PID</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="en">Digidentity PID</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509Certificate>MIICbTCCAhKgAwIBAgIBADAKBggqhkjOPQQDAjBfMQswCQYDVQQGEwJOTDEUMBIGA1UECgwLRGlnaWRlbnRpdHkxFDASBgNVBAsMC1NlbGYgU2lnbmVkMSQwIgYDVQQDDBtTZWxmIFNpZ25lZCBmb3IgZWNfa2V5X3BhaXIwHhcNMjUwNTA3MTM1NjMzWhcNMjgwNTA3MTM1NjMzWjBfMQswCQYDVQQGEwJOTDEUMBIGA1UECgwLRGlnaWRlbnRpdHkxFDASBgNVBAsMC1NlbGYgU2lnbmVkMSQwIgYDVQQDDBtTZWxmIFNpZ25lZCBmb3IgZWNfa2V5X3BhaXIwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAQQfVym6aHcyset8x1wsiJTYLdNEMHC0kk2/rgTIW2tbf0jmZecHeTGS8SLQIvQIByrvUPnzc2E6KehkUENLySZo4G+MIG7MA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFKwzoKxYxY8UzMect01PxH5uFASeMIGIBgNVHSMEgYAwfoAUrDOgrFjFjxTMx5y3TU/Efm4UBJ6hY6RhMF8xCzAJBgNVBAYTAk5MMRQwEgYDVQQKDAtEaWdpZGVudGl0eTEUMBIGA1UECwwLU2VsZiBTaWduZWQxJDAiBgNVBAMMG1NlbGYgU2lnbmVkIGZvciBlY19rZXlfcGFpcoIBADAKBggqhkjOPQQDAgNJADBGAiEA8Gm/2LAmI2BoJfsydg69lvStq8xB/wSxz/sjWi464wECIQD3XsJ82tJ3v1sCbrCRLM5z8HCMx+nr9iq2Se+iVQzWyg==</X509Certificate>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-03-04T22:00:00Z</StatusStartingTime>
+						<SchemeServiceDefinitionURI>
+							<URI xml:lang="en">https://eudiwalletconsortium.org/</URI>
+						</SchemeServiceDefinitionURI>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/NPWP</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="en">Digidentity Wallet</Name>
+						</ServiceName>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-03-04T22:00:00Z</StatusStartingTime>
+						<SchemeServiceDefinitionURI>
+							<URI xml:lang="en">https://eudiwalletconsortium.org/</URI>
+						</SchemeServiceDefinitionURI>
+					</ServiceInformation>
+				</TSPService>
+			</TSPServices>
+		</TrustServiceProvider>
+		<TrustServiceProvider>
+			<TSPInformation>
+				<TSPName>
+					<Name xml:lang="en">Buda Castle Experience</Name>
+				</TSPName>
+				<TSPTradeName>
+					<Name xml:lang="en">Budavári Palota - RDE Pilot</Name>
+				</TSPTradeName>
+				<TSPAddress>
+					<PostalAddresses>
+						<PostalAddress xml:lang="en">
+							<StreetAddress>Szent György tér 2</StreetAddress>
+							<Locality>Budapest</Locality>
+							<PostalCode>1014</PostalCode>
+							<CountryName>HU</CountryName>
+						</PostalAddress>
+					</PostalAddresses>
+					<ElectronicAddress>
+						<URI xml:lang="en">mailto:info@rde-ewc.hu</URI>
+					</ElectronicAddress>
+				</TSPAddress>
+				<TSPInformationURI>
+					<URI xml:lang="en">https://rde-ewc.hu/budacastleexperience_dev</URI>
+				</TSPInformationURI>
+			</TSPInformation>
+			<TSPServices>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="en">Buda Castle Ticket DEV Issuer</Name>
+						</ServiceName>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-05-01T00:00:00Z</StatusStartingTime>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>https://www.rde-ewc.hu/api_dev</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+					</ServiceInformation>
+				</TSPService>
+			</TSPServices>
+		</TrustServiceProvider>
+		<TrustServiceProvider>
+			<TSPInformation>
+				<TSPName>
+					<Name xml:lang="en">Signicat</Name>
+				</TSPName>
+				<TSPTradeName>
+					<Name xml:lang="en">Signicat AS</Name>
+				</TSPTradeName>
+				<TSPAddress>
+					<PostalAddresses>
+						<PostalAddress xml:lang="en">
+							<StreetAddress>Beddingen 16</StreetAddress>
+							<Locality>Trondheim</Locality>
+							<PostalCode>7042</PostalCode>
+							<CountryName>NO</CountryName>
+						</PostalAddress>
+					</PostalAddresses>
+					<ElectronicAddress>
+						<URI xml:lang="en">mailto:technicalsupport@signicat.com</URI>
+					</ElectronicAddress>
+				</TSPAddress>
+				<TSPInformationURI>
+					<URI xml:lang="en">https://www.signicat.com/</URI>
+				</TSPInformationURI>
+			</TSPInformation>
+			<TSPServices>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="en">Signicat EAA Issuer</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509Certificate>MIICZzCCAe2gAwIBAgIUG1DTFCv8QETYmDn4dtQ+Ulhru4IwCgYIKoZIzj0EAwIwdTEZMBcGA1UEAwwQYXBpLnNpZ25pY2F0LmRldjELMAkGA1UEBhMCTkwxEjAQBgNVBAcMCVJvdHRlcmRhbTERMA8GA1UECgwIU2lnbmljYXQxDDAKBgNVBAsMA1ImRDEWMBQGA1UECAwNU291dGggSG9sbGFuZDAeFw0yNTA0MTEwNjIwNTJaFw0zNTA0MDkwNjIwNTJaMHUxGTAXBgNVBAMMEGFwaS5zaWduaWNhdC5kZXYxCzAJBgNVBAYTAk5MMRIwEAYDVQQHDAlSb3R0ZXJkYW0xETAPBgNVBAoMCFNpZ25pY2F0MQwwCgYDVQQLDANSJkQxFjAUBgNVBAgMDVNvdXRoIEhvbGxhbmQwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAAS6qZB9kqrjUGE6w463NuxFFlOvhEXwTyk2TrXeH47/cXTf40AXhGTruhLc1HitLVK1KrFvUJ/GZJy5VYlxFnjbrIo0xM/28tNKmv8dBCKRPQblJ5M3hkPbDBNXA/UvCoajPjA8MBsGA1UdEQQUMBKCEGFwaS5zaWduaWNhdC5kZXYwHQYDVR0OBBYEFKlEwy7cyVAZzMtWnOlZXsDxutcqMAoGCCqGSM49BAMCA2gAMGUCMQC1WgBh2XETCfS+jkxrqPLCd+xH/bmYHQ9QGS0iEftKGMmE/TLToSsu3GTDAY8Aa8YCMAn2JFpm1cygjvlPaU23qYeK0FfXCOjMtuEXtTwcqqgNGK15WkFvulJP1JGenBReJA==</X509Certificate>
+							</DigitalId>
+							<DigitalId>
+								<X509SKI>A944C32EDCC95019CCCB569CE9595EC0F1BAD72A</X509SKI>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-05-20T00:00:00Z</StatusStartingTime>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>https://api.signicat.dev</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+					</ServiceInformation>
+				</TSPService>
+			</TSPServices>
+		</TrustServiceProvider>
+		<TrustServiceProvider>
+			<TSPInformation>
+				<TSPName>
+					<Name xml:lang="en">Digital and Population Data Services Agency (DVV)</Name>
+				</TSPName>
+				<TSPTradeName>
+					<Name xml:lang="en">Digital and Population Data Services Agency (DVV)</Name>
+				</TSPTradeName>
+				<TSPAddress>
+					<PostalAddresses>
+						<PostalAddress xml:lang="en">
+							<StreetAddress>Lintulahdenkuja 2</StreetAddress>
+							<Locality>Helsinki</Locality>
+							<PostalCode>00530</PostalCode>
+							<CountryName>FI</CountryName>
+						</PostalAddress>
+					</PostalAddresses>
+					<ElectronicAddress>
+						<URI xml:lang="en">mailto:digihenkilollisyys@dvv.fi</URI>
+					</ElectronicAddress>
+				</TSPAddress>
+				<TSPInformationURI>
+					<URI xml:lang="en">https://dvv.fi/en/</URI>
+				</TSPInformationURI>
+			</TSPInformation>
+			<TSPServices>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/NPWP</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="en">EUDI Wallet Demo</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509SubjectName>Public Key</X509SubjectName>
+							</DigitalId>
+							<DigitalId>
+								<X509SKI>MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAExsyL4dKJkgLWQKNTly+4HRUiVPhbyU8hRz1h7Kx+iwSMdADjZrr9JNv3JdJbZPElFpvcDuH7b05K/NcuCP78DA==</X509SKI>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-03-15T22:00:00Z</StatusStartingTime>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>https://wiki.dvv.fi/spaces/EDI/pages/235522018/2.+DVV+n+esimerkkisovellus+Finnish+EUDI+Wallet+Demo+mobile+application</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+					</ServiceInformation>
+				</TSPService>
+			</TSPServices>
+		</TrustServiceProvider>
+		<TrustServiceProvider>
+			<TSPInformation>
+				<TSPName>
+					<Name xml:lang="en">IDunion</Name>
+				</TSPName>
+				<TSPTradeName>
+					<Name xml:lang="en">IDunion SCE</Name>
+				</TSPTradeName>
+				<TSPAddress>
+					<PostalAddresses>
+						<PostalAddress xml:lang="en">
+							<StreetAddress>Rheinstrasse 5</StreetAddress>
+							<Locality>Langen (Hessen)</Locality>
+							<PostalCode>63225</PostalCode>
+							<CountryName>DE</CountryName>
+						</PostalAddress>
+					</PostalAddresses>
+					<ElectronicAddress>
+						<URI xml:lang="en">mailto:info@idunion.eu</URI>
+					</ElectronicAddress>
+				</TSPAddress>
+				<TSPInformationURI>
+					<URI xml:lang="en">https://idunion.eu</URI>
+				</TSPInformationURI>
+			</TSPInformation>
+			<TSPServices>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="en">IDunion EAA Issuer</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509SubjectName>Public Key</X509SubjectName>
+							</DigitalId>
+							<DigitalId>
+								<X509SKI>MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEyKA8lnxAD8nU8GqknJvJAZNgkxOcl9TdNW6A7KrOxjJZjfcyr5rZksR7QB5n+cW5/vxKyO/jfDC+J26sgxMk5w==</X509SKI>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-06-04T22:00:00Z</StatusStartingTime>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>https://wallet.idunion.info/</ServiceSupplyPoint>
+							<ServiceSupplyPoint>https://api.wallet.idunion.info/api/v1</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+					</ServiceInformation>
+				</TSPService>
+			</TSPServices>
+		</TrustServiceProvider>
+		<TrustServiceProvider>
+			<TSPInformation>
+				<TSPName>
+					<Name xml:lang="it">InfoCamere</Name>
+				</TSPName>
+				<TSPTradeName>
+					<Name xml:lang="it">InfoCamere</Name>
+				</TSPTradeName>
+				<TSPAddress>
+					<PostalAddresses>
+						<PostalAddress xml:lang="it">
+							<StreetAddress>Via Morgagni, 13</StreetAddress>
+							<Locality>Roma</Locality>
+							<PostalCode>00161</PostalCode>
+							<CountryName>IT</CountryName>
+						</PostalAddress>
+					</PostalAddresses>
+					<ElectronicAddress>
+						<URI xml:lang="it">mailto:alessandro.bazzolo@infocamere.it</URI>
+					</ElectronicAddress>
+				</TSPAddress>
+				<TSPInformationURI>
+					<URI xml:lang="it">https://id.infocamere.it/</URI>
+				</TSPInformationURI>
+			</TSPInformation>
+			<TSPServices>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/LPWP</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="it">Wallet Infocamere</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509Certificate>MIICPTCCAeKgAwIBAgIUfI29AuQQcpiSGd6pZf2JBIHM6bYwCgYIKoZIzj0EAwIwKzEcMBoGA1UEAwwTSW5mb0NhbWVyZSBWZXJpZmllcjELMAkGA1UEBhMCSVQwHhcNMjUwNzIyMTM0MDQ4WhcNMjgwNzIxMTM0MDQ4WjArMRwwGgYDVQQDDBNJbmZvQ2FtZXJlIFZlcmlmaWVyMQswCQYDVQQGEwJJVDBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABCWTm1ceewoWRlhFz6vpujbcbz//pp+Cl8Pq1hNuRZq/nktZTlgt4TntX2t2zFTdn3wIblTSQpNAbmIzYWFKs1ajgeMwgeAwEgYDVR0TAQH/BAgwBgEB/wIBADAOBgNVHQ8BAf8EBAMCAKQwHQYDVR0RBBYwFIISd2FsbC5pbmZvY2FtZXJlLml0MBIGA1UdJQQLMAkGByiBjF0FAQYwRwYDVR0fBEAwPjA8oDqgOIY2aHR0cHM6Ly9waWQtdmVyaWZpZXIudXRvY29ubmVjdC5jb20vdHJ1c3RzdHJ1Y3R1cmUvY3JsMB0GA1UdDgQWBBRJzALLijxrk4pVvHGC3MVBlAoqjzAfBgNVHSMEGDAWgBRJzALLijxrk4pVvHGC3MVBlAoqjzAKBggqhkjOPQQDAgNJADBGAiEA5ccBcRhjOIAFbbvaKmiBbI4IsNTc37dFziK2dlUni1kCIQDH+3aSFwtznY068VYolV16yi1QiVAoobyN3EvjkIKxUw==</X509Certificate>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-07-21T00:00:00Z</StatusStartingTime>
+						<SchemeServiceDefinitionURI>
+							<URI xml:lang="it">http://wall.infocamere.it/</URI>
+						</SchemeServiceDefinitionURI>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>https://ewc-consortium.github.io/ewc-trust-list/TrstSvc/Svctype/PID</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="it">Wallet Infocamere</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509Certificate>MIICPTCCAeKgAwIBAgIUfI29AuQQcpiSGd6pZf2JBIHM6bYwCgYIKoZIzj0EAwIwKzEcMBoGA1UEAwwTSW5mb0NhbWVyZSBWZXJpZmllcjELMAkGA1UEBhMCSVQwHhcNMjUwNzIyMTM0MDQ4WhcNMjgwNzIxMTM0MDQ4WjArMRwwGgYDVQQDDBNJbmZvQ2FtZXJlIFZlcmlmaWVyMQswCQYDVQQGEwJJVDBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABCWTm1ceewoWRlhFz6vpujbcbz//pp+Cl8Pq1hNuRZq/nktZTlgt4TntX2t2zFTdn3wIblTSQpNAbmIzYWFKs1ajgeMwgeAwEgYDVR0TAQH/BAgwBgEB/wIBADAOBgNVHQ8BAf8EBAMCAKQwHQYDVR0RBBYwFIISd2FsbC5pbmZvY2FtZXJlLml0MBIGA1UdJQQLMAkGByiBjF0FAQYwRwYDVR0fBEAwPjA8oDqgOIY2aHR0cHM6Ly9waWQtdmVyaWZpZXIudXRvY29ubmVjdC5jb20vdHJ1c3RzdHJ1Y3R1cmUvY3JsMB0GA1UdDgQWBBRJzALLijxrk4pVvHGC3MVBlAoqjzAfBgNVHSMEGDAWgBRJzALLijxrk4pVvHGC3MVBlAoqjzAKBggqhkjOPQQDAgNJADBGAiEA5ccBcRhjOIAFbbvaKmiBbI4IsNTc37dFziK2dlUni1kCIQDH+3aSFwtznY068VYolV16yi1QiVAoobyN3EvjkIKxUw==</X509Certificate>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-07-21T00:00:00Z</StatusStartingTime>
+						<SchemeServiceDefinitionURI>
+							<URI xml:lang="it">http://wall.infocamere.it/</URI>
+						</SchemeServiceDefinitionURI>
+					</ServiceInformation>
+				</TSPService>
+				<TSPService>
+					<ServiceInformation>
+						<ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+						<ServiceName>
+							<Name xml:lang="it">Wallet Infocamere</Name>
+						</ServiceName>
+						<ServiceDigitalIdentity>
+							<DigitalId>
+								<X509Certificate>MIICNzCCAd6gAwIBAgIUXUT4tZSJClMV9DgGIEiliExfMw0wCgYIKoZIzj0EAwIwKTEaMBgGA1UEAwwRSW5mb0NhbWVyZSBJc3N1ZXIxCzAJBgNVBAYTAklUMB4XDTI1MDcyMjEzNDAzOVoXDTI4MDcyMTEzNDAzOVowKTEaMBgGA1UEAwwRSW5mb0NhbWVyZSBJc3N1ZXIxCzAJBgNVBAYTAklUMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEpWiiVkeoFwm6n73xxrSqbDB0qPF2e0lEefDLKi6rhIkTjuDOVA2WN5agsbi8FCnK85dJoda1eX4+IQ8zfX5Kz6OB4zCB4DASBgNVHRMBAf8ECDAGAQH/AgEAMA4GA1UdDwEB/wQEAwIApDAdBgNVHREEFjAUghJ3YWxsLmluZm9jYW1lcmUuaXQwEgYDVR0lBAswCQYHKIGMXQUBBjBHBgNVHR8EQDA+MDygOqA4hjZodHRwczovL3BpZC12ZXJpZmllci51dG9jb25uZWN0LmNvbS90cnVzdHN0cnVjdHVyZS9jcmwwHQYDVR0OBBYEFBZcbATv16zpXxWF3OV6waLPNMuZMB8GA1UdIwQYMBaAFBZcbATv16zpXxWF3OV6waLPNMuZMAoGCCqGSM49BAMCA0cAMEQCIDz1QPXMHZiK17+aE0sdWr4EKYEif9gtzrp/o7RJM2HuAiAELh65Ae2rySvw0SsSgWpc/ztccEmuSoNqu/mcVOexdA==</X509Certificate>
+							</DigitalId>
+						</ServiceDigitalIdentity>
+						<ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+						<StatusStartingTime>2025-07-21T00:00:00Z</StatusStartingTime>
+						<ServiceSupplyPoints>
+							<ServiceSupplyPoint>http://wall.infocamere.it/</ServiceSupplyPoint>
+						</ServiceSupplyPoints>
+					</ServiceInformation>
+				</TSPService>
+			</TSPServices>
+		</TrustServiceProvider>
+	</TrustServiceProviderList>
 </TrustServiceStatusList>
