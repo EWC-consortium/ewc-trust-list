@@ -136,9 +136,9 @@
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
-                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="en">IG EAA</Name>
+                            <Name xml:lang="en">Intesi Group PhotoID QEAA</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -153,7 +153,7 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="en">Intesi Group PhotoID EAA</Name>
+                            <Name xml:lang="en">IG QEAA</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
