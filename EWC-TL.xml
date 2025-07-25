@@ -144,9 +144,9 @@
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
-                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="en">Intesi Group PhotoID QEAA</Name>
+                            <Name xml:lang="en">IG EAA</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -162,7 +162,7 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="en">IG QEAA</Name>
+                            <Name xml:lang="en">Intesi Group PhotoID EAA</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -1126,6 +1126,57 @@
                         </ServiceDigitalIdentity>
                         <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
                         <StatusStartingTime>2025-07-06T22:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Fast Ferries</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Fast Ferries</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Skouse str</StreetAddress>
+                            <Locality>Pireus</Locality>
+                            <PostalCode>18536</PostalCode>
+                            <CountryName>EL</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:triantafyllou.ni@aegean.gr</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://fastferries.com.gr/en/</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Fast Ferries EAA</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+                                <X509Certificate>
+                                    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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+                                <X509SubjectName>DNQ=RE1751656059971, CN=Fast Ferries, O=Fast
+                                    Ferries, OID.2.5.4.97=VATGR-13243546, C=GR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+                                <X509SKI>2rMC/FzRUms73xJYQM8SKip9cmM=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>https://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted/</ServiceStatus>
+                        <StatusStartingTime>2025-07-24T22:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
